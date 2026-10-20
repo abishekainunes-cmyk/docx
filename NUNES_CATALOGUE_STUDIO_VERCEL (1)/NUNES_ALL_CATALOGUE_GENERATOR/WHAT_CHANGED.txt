@@ -1,0 +1,16 @@
+UPDATED FROM THE 6-PRODUCT TEST VERSION
+=======================================
+
+- Removed Excel as the product queue/output.
+- Source is now the live Google Drive spreadsheet "total price list".
+- Confirmed source has 127,346 rows and Product Name is column E.
+- Generator has NO fixed 6-product limit.
+- It continues sequentially through the full Drive product list.
+- Creates only two output folders:
+    Catalogue\
+    Mini Catalogue\
+- One full catalogue + one related-product mini catalogue are created for each unique Product Name + Model.
+- Resume database prevents starting again from the beginning after restart.
+- Drive image/model/specification fields are used first.
+- Web research improves missing details; IndiaMART is the fallback.
+- If an exact product image cannot be verified, it does not insert a fake image.

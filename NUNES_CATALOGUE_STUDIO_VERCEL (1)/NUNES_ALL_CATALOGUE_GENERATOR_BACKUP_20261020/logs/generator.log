@@ -1,0 +1,8 @@
+2026-10-20 09:00:31 ====================================================================
+2026-10-20 09:00:31 NUNES ALL CATALOGUE GENERATOR - DIRECT GOOGLE DRIVE SOURCE
+2026-10-20 09:00:31 No Excel queue is created. Output is only Catalogue/ and Mini Catalogue/.
+2026-10-20 09:00:31 ====================================================================
+2026-10-20 09:00:32 [DRIVE] Reading Google Sheet directly (public CSV fallback)
+2026-10-20 09:00:33 [ERROR] Could not read the Google Sheet directly.
+2026-10-20 09:00:33 Place your existing google_service_account.json in this folder (or config/) and share the 'total price list' sheet with that service account email.
+2026-10-20 09:00:33 Details: 410 Client Error: Gone for url: https://docs.google.com/spreadsheets/d/1jYUA7SqSBlkGUs-IaybfEM8lI1ors2w3h62z8yYLC5I/export?format=csv&gid=0

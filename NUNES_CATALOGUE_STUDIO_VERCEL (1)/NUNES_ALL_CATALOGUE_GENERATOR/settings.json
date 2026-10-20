@@ -1,0 +1,24 @@
+{
+  "company_name": "Nunes Instrumentation",
+  "spreadsheet_id": "1jYUA7SqSBlkGUs-IaybfEM8lI1ors2w3h62z8yYLC5I",
+  "sheet_name": "Sheet1",
+  "start_row": 2,
+  "end_row": 0,
+  "columns": {
+    "image_link": "D",
+    "product_name": "E",
+    "model": "F",
+    "specifications": "G"
+  },
+  "deduplicate_by_product_and_model": true,
+  "strict_accuracy": true,
+  "web_search_enabled": true,
+  "indiamart_fallback": true,
+  "search_delay_seconds": 1.0,
+  "chunk_rows": 1000,
+  "mini_related_count": 10,
+  "max_spec_rows": 8,
+  "output_catalogue_dir": "Catalogue",
+  "output_mini_dir": "Mini Catalogue",
+  "progress_db": "progress.sqlite3"
+}

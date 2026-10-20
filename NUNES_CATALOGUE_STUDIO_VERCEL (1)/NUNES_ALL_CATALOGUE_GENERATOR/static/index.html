@@ -1,0 +1,1525 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#142D4E"><title>NUNES Catalogue Studio</title><style>
+:root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:#0f172a;background:#f8fafc}*{box-sizing:border-box}body{margin:0}button,input,textarea{font:inherit}button{cursor:pointer}button:disabled{opacity:.55;cursor:wait}input,textarea{width:100%;border:1px solid #cbd5e1;background:#fff;color:#0f172a;border-radius:9px;padding:11px 12px;outline:none;font-size:14px}textarea{min-height:125px;resize:vertical;line-height:1.5}input:focus,textarea:focus,button:focus-visible{outline:3px solid #bfdbfe;outline-offset:1px}input[readonly],textarea[readonly]{background:#f1f5f9;color:#475569}label{display:block;font-size:12px;font-weight:700;margin-bottom:7px;color:#475569}.field{margin:0 0 16px}.muted{color:#64748b}.small{font-size:12px}.hidden,[hidden]{display:none!important}.nav{background:#142d4e;color:#fff}.nav-inner{max-width:1380px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:14px 24px;gap:20px}.brand{display:flex;gap:12px;align-items:center}.logo{display:grid;place-items:center;width:42px;height:42px;border:1px solid #7191b8;border-radius:9px;background:#fff;color:#142d4e;font-size:24px;font-weight:900}.brand strong{display:block;letter-spacing:.04em;font-size:14px}.brand span{display:block;color:#bfccdc;font-size:12px;margin-top:3px}.nav-links{display:flex;gap:8px;align-items:center}.nav-links a{color:#dbeafe;padding:9px 11px;text-decoration:none;font-size:13px;border-radius:7px}.nav-links a:hover{background:#294766}.role{font-size:12px;background:#244565;border:1px solid #497092;border-radius:99px;padding:7px 10px}.nav-button{background:transparent;color:#e2e8f0;border:1px solid #7893ad;border-radius:8px;padding:8px 12px;font-size:12px}.layout{max-width:1380px;margin:auto;padding:30px 24px 65px}.pagehead{display:flex;justify-content:space-between;gap:20px;margin-bottom:25px;align-items:end}.eyebrow{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#2563eb;font-weight:800;margin-bottom:8px}.pagehead h1{font-size:27px;letter-spacing:-.6px;margin:0}.pagehead p{font-size:14px;line-height:1.5;color:#64748b;margin:9px 0 0}.statuspill{border:1px solid #dbeafe;background:#eff6ff;color:#1d4ed8;font-size:12px;padding:10px 13px;border-radius:9px;font-weight:650}.grid{display:grid;grid-template-columns:minmax(340px,.92fr) minmax(0,1.08fr);gap:20px;align-items:start}.stack{display:grid;gap:20px}.card{background:#fff;border:1px solid #e2e8f0;border-radius:13px;overflow:hidden;box-shadow:0 2px 11px #0f172a06}.card-h{padding:18px 20px;border-bottom:1px solid #e9eef4;display:flex;justify-content:space-between;gap:12px;align-items:center}.card-h h2{margin:0;font-size:16px}.card-h p{margin:4px 0 0;font-size:12px;color:#64748b}.body{padding:20px}.row{display:flex;align-items:center;gap:10px}.between{justify-content:space-between}.btn{border:0;border-radius:9px;background:#2563eb;color:#fff;font-size:13px;font-weight:700;padding:11px 16px}.btn:hover{background:#1d4ed8}.btn.alt{border:1px solid #cbd5e1;background:#fff;color:#334155}.btn.alt:hover{background:#f1f5f9}.btn.full{width:100%}.searchbar{display:flex;gap:9px}.searchbar input{flex:1;min-width:0}.notice{font-size:12px;line-height:1.55;background:#f1f5f9;color:#475569;border-radius:8px;padding:11px 13px;margin-top:13px}.notice.error{background:#fef2f2;color:#b91c1c}.notice.success{background:#ecfdf5;color:#047857}.notice:empty{display:none}.drive-tools{margin-top:15px}.drive-tools label{display:flex;align-items:center;gap:8px}.drive-tools input[type=checkbox]{width:auto}.drive-tools a{font-size:13px;display:inline-block;margin-top:7px}.results{max-height:330px;overflow:auto;margin-top:12px}.results table{width:100%;border-collapse:collapse;text-align:left;font-size:12px}.results th{background:#f8fafc;color:#64748b;position:sticky;top:0;text-align:left;font-weight:700;padding:10px}.results td{border-top:1px solid #e2e8f0;padding:11px 9px;vertical-align:middle;overflow-wrap:anywhere}.results button{font-size:12px;padding:7px 9px}.formgrid{display:grid;grid-template-columns:1fr 1fr;gap:0 14px}.hint{font-size:12px;color:#64748b;margin:6px 0 0}.preview{background:#f1f5f9;min-height:335px;display:grid;place-items:center;text-align:center;border:1px dashed #cbd5e1;border-radius:10px;overflow:hidden}.preview iframe{border:0;width:100%;height:540px;background:white}.preview .empty{padding:28px}.preview .empty svg{width:39px;height:39px;stroke:#64748b;fill:none;stroke-width:1.7}.section-action{display:flex;gap:9px;flex-wrap:wrap;margin-top:14px}.section-action button{flex:1}.login{max-width:450px;margin:50px auto}.login .body{padding:25px}.tabs{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:22px}.tabs button{border:1px solid #cbd5e1;border-radius:9px;background:#fff;color:#334155;padding:12px;font-weight:700}.tabs button.active{color:#1d4ed8;background:#eff6ff;border-color:#93c5fd}.imagepreview{max-width:150px;max-height:120px;object-fit:contain;border:1px solid #e2e8f0;border-radius:8px;margin-top:9px}.signout{display:none}.skeleton{background:linear-gradient(100deg,#f1f5f9,#e2e8f0,#f1f5f9);height:22px;border-radius:6px;margin:8px 0;animation:pulse 1.5s infinite}@keyframes pulse{50%{opacity:.55}}.footer{text-align:center;color:#94a3b8;font-size:12px;margin-top:32px}@media(max-width:960px){.grid{grid-template-columns:1fr}.nav-links{display:none}.pagehead{display:block}.statuspill{display:inline-block;margin-top:12px}}@media(max-width:550px){.layout{padding:20px 12px}.nav-inner{padding:13px}.brand strong{font-size:12px}.formgrid{grid-template-columns:1fr}.searchbar{flex-wrap:wrap}.searchbar button{width:100%}.body{padding:15px}.preview iframe{height:380px}}
+.nav-links a[aria-current="page"]{background:#fff;color:#142d4e;font-weight:800}.pagehead{scroll-margin-top:30px}
+/* Dedicated Mini Catalogue results page */
+.mini-only{display:none}.mini-mode #editor{display:none}.mini-mode .mini-only{display:block}.mini-mode .grid{grid-template-columns:minmax(0,1fr) minmax(300px,.86fr)}.mini-mode .results{display:none}.mini-category{border:1px solid #dbe4f0;border-radius:12px;background:#fff;margin:12px 0;overflow:hidden}.mini-category h3{font-size:15px;margin:0;padding:13px 15px;background:#f1f5f9}.mini-category .mini-count{float:right;color:#475569;font-weight:500}.mini-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:11px;padding:13px}.mini-product{border:1px solid #e2e8f0;border-radius:9px;padding:9px;display:flex;flex-direction:column;gap:7px}.mini-product img{width:100%;height:125px;object-fit:contain;background:#f8fafc}.mini-product strong{font-size:13px;overflow-wrap:anywhere}.mini-product small{color:#64748b}.mini-noimage{padding:11px 13px;border-top:1px solid #e2e8f0}.mini-noimage p{font-size:12px;color:#64748b;margin:0 0 7px}.mini-noimage label{display:inline-flex;gap:6px;margin:4px 12px 4px 0;align-items:center}.mini-noimage input,.mini-product input{width:auto}.mini-add-photo{font-size:11px;border:1px solid #93c5fd;background:#eff6ff;color:#1d4ed8;padding:5px 8px;border-radius:6px;margin-left:8px}.mini-product .mini-add-photo{align-self:flex-start}.mini-tools{padding:15px;border-top:1px solid #e2e8f0;display:flex;align-items:center;gap:12px;flex-wrap:wrap}.mini-tools button{flex:1}.mini-mode #preview-card{position:sticky;top:18px}@media(max-width:960px){.mini-mode .grid{grid-template-columns:1fr}.mini-mode #preview-card{position:static}}
+.reference-copy{margin:17px 0;border:1px solid #cbd5e1;border-radius:11px;background:#fff;overflow:hidden}
+.reference-copy summary{cursor:pointer;background:#f1f5ff;padding:13px 15px;font-size:14px;font-weight:750;color:#142d4e}
+.reference-hint{padding:10px 15px 0;font-size:12px;color:#64748b}
+.reference-content-stats{padding:10px 15px 4px;font-size:12px;color:#334155;font-weight:650}
+.reference-copy-body{padding:14px 17px;line-height:1.65;font-size:14px;overflow-wrap:anywhere}
+.reference-copy-body .reference-title{font-size:15px;line-height:1.4;color:#0f172a;margin:3px 0 13px}
+.reference-copy-body .reference-paragraph{margin:0 0 12px;white-space:pre-line;color:#1e293b}
+.reference-copy-body .reference-heading{font-size:13px;color:#143c70;margin:16px 0 6px}
+.reference-copy-body .reference-list{padding-left:23px;margin:0 0 9px}
+.reference-copy-body .reference-list li{margin:4px 0}
+.reference-copy-body .reference-company{margin-top:15px}
+.reference-copy-body .reference-disclaimer{font-size:12px;font-style:italic;color:#475569}
+.reference-copy-body .reference-empty{font-size:12px;color:#64748b;font-style:italic}
+.reference-copy .section-action{padding:0 15px 15px}
+</style><link rel="stylesheet" href="/static/studio-ux.css?v=20261016-instant-cloud"></head><body><header class="nav"><div class="nav-inner"><div class="brand"><div class="logo" aria-hidden="true">N</div><div><strong>NUNES INSTRUMENTATION</strong><span>Professional Product Catalogue Management</span></div></div><nav class="nav-links" id="navigation" aria-label="Primary navigation"><a href="/catalogue" id="tab-full">Full Catalogue</a><a href="/mini-catalogue" id="tab-mini">Mini Catalogue</a><a href="#products">Product Search</a><a href="#preview-card">PDF Preview</a></nav></div></header>
+<main class="layout"><section id="workarea"><div class="pagehead"><div><div class="eyebrow">Catalogue Management</div><h1 id="page-title">Full Catalogue Generator</h1><p>Find a verified product, review its details and create a branded PDF catalogue.</p></div><div class="statuspill"><span id="page-mode">Full Catalogue</span> · PDF</div></div>
+<div class="grid"><div class="stack"><section class="card" id="auto-file-upload-card" style="border:2px solid #2563eb;background:linear-gradient(180deg,#ffffff 0%,#f0f7ff 100%);box-shadow:0 4px 15px rgba(37,99,235,0.08)">
+<div class="card-h" style="background:#eff6ff"><div><h2 style="color:#1d4ed8;display:flex;align-items:center;gap:8px"><span>⚡ Automated File Upload &amp; Catalogue Generator</span><span class="statuspill" style="padding:3px 8px;font-size:11px">Auto Detection</span></h2><p>Upload a product image, PDF datasheet, CSV, Excel or spec sheet. The system automatically detects product details, extracts specifications, and generates branded Full &amp; Mini Catalogues.</p></div></div>
+<div class="body">
+  <div id="dropzone" style="border:2px dashed #93c5fd;border-radius:12px;padding:30px 20px;text-align:center;background:#fff;cursor:pointer;transition:all .2s ease">
+    <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-bottom:10px;display:inline-block"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+    <div style="font-size:15px;font-weight:750;color:#1e293b;margin-bottom:5px">Drop product image, PDF datasheet, CSV, or spec sheet here</div>
+    <div style="font-size:12px;color:#64748b;margin-bottom:12px">Supports PNG, JPG, WEBP, PDF, CSV, TXT, JSON • Up to 25 MB</div>
+    <label class="btn" style="cursor:pointer;display:inline-block">Browse File<input type="file" id="auto-upload-input" accept="image/*,.pdf,.csv,.xlsx,.txt,.json" style="display:none"></label>
+  </div>
+  <div id="auto-upload-progress" class="notice" style="display:none;margin-top:14px;font-weight:600;font-size:13px"><div style="display:flex;align-items:center;gap:10px"><span style="display:inline-block;width:14px;height:14px;border:2px solid #2563eb;border-top-color:transparent;border-radius:50%;animation:pulse 1s infinite"></span><span id="auto-upload-status-text">Analyzing file and extracting product specifications…</span></div></div>
+  <div id="auto-upload-result" style="display:none;margin-top:16px;border:1px solid #bfdbfe;border-radius:12px;background:#fff;padding:18px">
+    <div style="display:flex;justify-content:space-between;align-items:start;margin-bottom:14px;flex-wrap:wrap;gap:10px">
+      <div><span style="font-size:11px;text-transform:uppercase;font-weight:800;color:#2563eb;letter-spacing:.05em">Detected Product Details</span><h3 id="detected-prod-name" style="margin:4px 0;font-size:18px;color:#0f172a"></h3><span style="font-size:13px;color:#475569">Catalogue Brand: <strong>VTech</strong> | Model: <strong id="detected-model">VT</strong></span></div>
+      <div id="detected-drive-badge" style="display:none;background:#ecfdf5;border:1px solid #a7f3d0;color:#065f46;padding:5px 12px;border-radius:99px;font-size:12px;font-weight:650">☁️ Saved to Google Drive</div>
+    </div>
+    <div style="display:grid;grid-template-columns:minmax(0,1.3fr) minmax(160px,0.7fr);gap:14px;margin-bottom:16px">
+      <div><div style="font-size:12px;font-weight:700;color:#475569;margin-bottom:6px">Extracted Technical Specifications</div><pre id="detected-specs" style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:10px;font-size:12px;max-height:150px;overflow:auto;white-space:pre-wrap;margin:0"></pre></div>
+      <div style="text-align:center"><div style="font-size:12px;font-weight:700;color:#475569;margin-bottom:6px">Product Photograph</div><img id="detected-photo" style="max-width:100%;max-height:150px;object-fit:contain;border:1px solid #e2e8f0;border-radius:8px;background:#f8fafc" alt="Extracted product"></div>
+    </div>
+    <div style="display:flex;gap:9px;flex-wrap:wrap;padding-top:12px;border-top:1px solid #e2e8f0">
+      <button type="button" class="btn" id="btn-download-full" style="flex:1;min-width:170px">📄 Download Full PDF</button>
+      <button type="button" class="btn" id="btn-download-mini" style="flex:1;min-width:170px">📑 Download Mini PDF</button>
+      <button type="button" class="btn alt" id="btn-load-editor" style="flex:1;min-width:130px">✏️ Load in Editor</button>
+      <a id="btn-view-drive-full" class="btn alt" target="_blank" rel="noopener noreferrer" style="display:none;align-items:center;justify-content:center">📁 View in Drive</a>
+    </div>
+  </div>
+</div>
+</section><section class="card" id="products"><div class="card-h"><div><h2>Product Search</h2></div></div><div class="body"><div class="field"><div class="searchbar"><input id="q" aria-label="Search by product name or model" placeholder="Search product name, model, or keyword..." autocomplete="off"><button class="btn" id="search">Search</button><button type="button" id="mini-auto-create" class="btn mini-only mini-auto-create">Auto-Create Mini PDF</button><button type="button" id="full-one-click-batch" class="btn full-only full-batch-quick">1-Click: Research + 8 Full PDFs</button></div>
+<div class="mini-only mini-house-branding" role="note">
+<strong>Catalogue Brand: VTech</strong><span>Catalogue Model: <strong>VT</strong></span>
+<small>Internal catalogue identity only. Original manufacturers and product models remain unchanged in source listings.</small>
+</div>
+<div class="full-only full-house-branding"><strong>Catalogue Brand: VTech</strong><span>Catalogue Model: <strong>VT</strong></span><small>Source manufacturer/model details are preserved separately for accuracy.</small></div>
+</div>
+<section class="instant-cloud-workflow" id="instant-cloud-workflow" aria-labelledby="instant-cloud-heading">
+ <div class="instant-cloud-head">
+  <div><h3 id="instant-cloud-heading">Instant Cloud Catalogue — Full + Mini</h3>
+   <p>One click: use up to eight matching Source Evidence products (or research by name), create a two-page Full PDF for each, combine them into a Mini PDF, and download a ZIP with a source-verification report.</p>
+  </div>
+  <button id="instant-cloud-build" class="btn" type="button">Auto-Create All Full + Mini PDFs</button>
+ </div>
+ <div id="instant-cloud-status" class="hint" role="status" aria-live="polite">Ready to research the entered product or use selected Source Evidence products (up to 8).</div>
+ <div id="instant-cloud-results" class="instant-cloud-results" aria-live="polite"></div>
+ <small class="instant-cloud-caution">Public source evidence only. Files without sufficient exact-model specifications are marked review drafts. Private IndiaMART seller data still requires an authorized CSV export or the local connector.</small>
+</section><div class="field" id="search-upload"><input type="file" id="search-image-file" aria-label="Upload a product photo (optional)" accept="image/jpeg,image/png,image/webp"></div><div id="searchmsg" class="notice" role="status" aria-live="polite" hidden></div>
+<div id="mini-auto-status" class="notice mini-only" role="status" aria-live="polite" hidden></div><div class="field" style="margin-top:9px"><input id="indiamart-url" aria-label="IndiaMART listing URL optional" type="url" placeholder="IndiaMART product link (optional, improves accuracy)"></div><div id="source-research" class="notice" role="status" hidden></div><div id="source-links" class="small"></div>
+<div id="full-batch-tools" class="full-only full-batch-tools">
+<button type="button" class="btn" id="full-batch-build" disabled>Generate All Source Evidence Full PDFs</button>
+<div id="full-batch-status" class="notice" role="status" aria-live="polite">Run product research to collect the matching source photographs. All discovered photographs can be compiled into separate Full Catalogue PDFs.</div>
+</div><div class="mini-only" style="margin-top:12px"><button class="btn full" type="button" id="mini-ai">Prepare Product Draft</button><div class="notice" id="mini-ai-status" role="status">Checking Local Ollama connection…</div><details class="local-ai-help"><summary>Connect Local AI</summary><p>Use the <code>windows/CONNECT_RENDER_AI.ps1</code> setup script on the office PC and configure private Vercel bridge variables. See the Full Catalogue editor for setup details.</p></details></div><div class="results" id="results" aria-live="polite"></div></div></section><section class="card" id="indiamart-account" style="display:none">
+<div class="card-h"><div><h2>NUNES IndiaMART Account Connection</h2>
+<p>Reuse your EXISTING signed-in Chrome seller tab. Read-only products → Full/Mini PDFs, with no repeated login while the session remains valid.</p></div></div>
+<div class="body">
+<div class="account-brand">Catalogue Brand <strong>VTech</strong> <span>Catalogue Model <strong>VT</strong></span></div>
+<div class="seller-signin">
+  <div class="seller-signin-title">Connect Existing IndiaMART Chrome — no new login</div>
+  <p>Use the Chrome where you are already signed into your seller account. The NUNES extension reads only your authorized Manage Products tab, passes product data to a <strong>local</strong> Windows connector and creates branded PDFs. No passwords, cookies, OTPs or price changes.</p>
+  <div class="seller-signin-actions seller-existing-actions">
+    <a id="seller-windows-runner" href="/api/catalogue/connector-package.zip" class="btn" download="NUNES_IndiaMART_Existing_Chrome_Connector.zip">Download Complete Windows Connector ZIP</a>
+    <button id="seller-check-local" type="button" class="btn alt">Check Local Connection</button>
+    <a class="btn alt" href="https://seller.indiamart.com/" target="_blank" rel="noopener noreferrer" id="seller-official-login">IndiaMART Seller (Existing Login)</a>
+  </div>
+  <div class="seller-session-status" role="status" aria-live="polite">
+    <span class="seller-session-dot" aria-hidden="true"></span>
+    <div><strong id="seller-live-status">Disconnected — local connector not checked</strong>
+    <small id="seller-live-detail">The website cannot inspect your Chrome login. A local scan must complete before a seller connection is confirmed.</small></div>
+  </div>
+  <div class="account-metrics seller-live-metrics">
+    <div><strong id="seller-live-total">0</strong><small>Captured products</small></div>
+    <div><strong id="seller-live-full">0</strong><small>Full PDFs generated</small></div>
+    <div><strong id="seller-live-mini">0</strong><small>Mini PDFs generated</small></div>
+    <div><strong id="seller-live-review">0</strong><small>Need source review</small></div>
+  </div>
+  <p class="account-help seller-local-meta">Last successful product scan: <strong id="seller-last-scan">Not verified</strong>
+   <span>· Local PDFs folder: <code id="seller-live-output">Pending local connector</code></span></p>
+  <div class="seller-connection-steps">
+    <div><strong>1</strong><span>Download the <b>complete ZIP</b>, extract it, and double-click <code>RUN_EXISTING_CHROME_CONNECTOR.bat</code>.</span></div>
+    <div><strong>2</strong><span>In the SAME Chrome profile already signed into IndiaMART, open <code>chrome://extensions</code> → Developer mode → Load unpacked → choose <code>windows/existing_chrome_extension</code>.</span></div>
+    <div><strong>3</strong><span>Pair the extension once with the code in the BAT window. Open seller <b>Manage Products</b> and click <b>Scan Seller Products</b> in the extension.</span></div>
+    <div><strong>4</strong><span>The local runner captures public product details, makes Full/Mini PDFs and checkpoints completed files. Enable hourly re-scanning in the extension if needed.</span></div>
+  </div>
+  <p class="hint">Connection status is obtained from <code>127.0.0.1:8765</code> on your own PC. Clicking Download does not mean IndiaMART is connected. If a scan finds no valid products or the session has expired, previously saved products stay intact. No seller edit, deactivate, delete or price changes are performed.</p>
+</div>
+<details class="account-setup seller-import-fallback" id="seller-import-fallback">
+<summary>Optional alternative: import an IndiaMART seller CSV/JSON export</summary>
+<p class="account-help">Use this only if you prefer a file export or if the seller page does not expose recognizable product names to the Windows read-only collector.</p>
+<div class="formgrid">
+<div class="field"><label for="account-alias">Account label</label>
+<input id="account-alias" value="IndiaMART Account 1" maxlength="70" autocomplete="off"></div>
+<div class="field"><label for="account-export-file">Choose owner product export (CSV or JSON)</label>
+<input id="account-export-file" type="file" accept=".csv,.json,text/csv,application/json"></div></div>
+<div id="account-import-status" class="notice" role="status" aria-live="polite">Optional file import not selected. Normal Chrome login is recommended.</div>
+<div class="account-metrics">
+<div><strong id="account-total">0</strong><small>Imported products</small></div>
+<div><strong id="account-remaining">0</strong><small>New / changed</small></div>
+<div><strong id="account-completed">0</strong><small>Completed in this browser</small></div>
+</div>
+<div class="batch-actions account-actions">
+<button id="account-load-next" type="button" class="btn" disabled>Load Next 20 for Website Generator</button>
+<button id="account-reset" type="button" class="btn alt" disabled>Reset Sync Checkpoint</button>
+</div>
+<div id="account-batch-note" class="hint" role="status">The manual CSV/JSON importer remains available for export-backed syncing; it is not needed for the Chrome connection.</div>
+</details>
+<details class="account-setup">
+<summary>Optional separate-Chrome Playwright runner (not your existing Chrome session)</summary>
+<p>The recommended first option is the <strong>Existing Chrome Connector ZIP</strong> above. The older <code>windows/RUN_INDIAMART_ACCOUNT_SYNC.bat</code> is an optional separate-profile Playwright fallback; it does not use the same already-signed-in Chrome tab. Use it only if you specifically want a second Chrome profile.</p>
+<p>Saved product PDFs and checkpoints: <code>NUNES_Account_Catalogues</code> alongside the source project. Local sign-in profile: <code>%LOCALAPPDATA%&#92;NunesCatalogue&#92;IndiaMART&#92;ChromeProfile</code>.</p>
+<p><a href="https://github.com/aiabishekgv-stack/Catalogue-Generator/blob/main/NUNES_CATALOGUE_VSC_VERCEL_READY/windows/INDIAMART_ACCOUNT_SYNC.py" target="_blank" rel="noopener noreferrer">View read-only sync source code</a>. The Windows runner needs Python 3.11+, Chrome and Internet access; it installs Python packages <code>requests</code> and <code>playwright</code> if needed.</p>
+</details>
+</div>
+</section><section class="card" id="batch-workflow">
+<div class="card-h"><div><h2>Bulk Catalogue Automation</h2><p>Product names → IndiaMART evidence → researched PDFs → optional Google Drive folders</p></div></div>
+<div class="body">
+<div class="batch-guide">Paste real product names, ideally with each exact IndiaMART product URL. Missing technical values or exact photographs are never guessed.</div>
+<div class="field"><label for="batch-products">Product List — one per line</label>
+<textarea id="batch-products" rows="5" spellcheck="false" placeholder="Carbon Sulfur Elemental Analyzer | https://www.indiamart.com/proddetail/example-123456.html&#10;Leak Detector Kit&#10;RMS Digital Multimeter"></textarea></div>
+<div class="batch-actions"><button id="batch-use-selected" type="button" class="btn alt">Use Selected / Source Evidence Products</button>
+<label for="batch-playwright-json" class="batch-import">Import Windows Playwright JSON<input id="batch-playwright-json" type="file" accept=".json,application/json"></label></div>
+<div id="batch-import-message" class="hint" role="status">Optional: import matching public IndiaMART page evidence collected using Playwright on your Windows PC.</div>
+<details class="batch-playwright-guide">
+<summary>Optional: Capture exact IndiaMART product data using Playwright on Windows</summary>
+<p>For better source evidence, copy your product names or their exact IndiaMART product-detail URLs into <code>products.txt</code>. Run the script using your installed Google Chrome, then import its JSON here. It reads public product pages only and does not bypass a login or verification challenge.</p>
+<code>py -m pip install playwright beautifulsoup4 ddgs</code>
+<code>py windows/INDIAMART_PLAYWRIGHT_BATCH.py --input products.txt --output evidence.json</code>
+<p><a href="https://github.com/aiabishekgv-stack/Catalogue-Generator/blob/main/NUNES_CATALOGUE_VSC_VERCEL_READY/windows/INDIAMART_PLAYWRIGHT_BATCH.py" target="_blank" rel="noopener noreferrer">Open Windows Playwright scraper</a> · Then choose <strong>Import Windows Playwright JSON</strong>. Product-name-only lookup proceeds only for a unique exact public listing; otherwise provide its URL.</p>
+</details>
+<div class="batch-options">
+<label><input id="batch-full" type="checkbox" checked> Full PDF per product (requires sourced specifications and matching photo)</label>
+<label><input id="batch-mini" type="checkbox" checked> One combined Mini PDF from the product list</label>
+<label><input id="batch-drive" type="checkbox" checked> Save PDFs to Drive: Catalogue / Mini Catalogue (when connected)</label>
+</div>
+<div class="field"><label for="batch-owner-code">Private owner / Drive code for Gemini and Drive saving</label><input id="batch-owner-code" type="password" autocomplete="off" placeholder="Owner code (not stored)"></div>
+<div class="batch-help" id="batch-drive-help" role="status">Checking Google Drive configuration…</div>
+<div class="batch-actions"><button id="batch-start" type="button" class="btn">Start Product List Automation</button>
+<button id="batch-cancel" type="button" class="btn alt" disabled>Stop After Current Product</button></div>
+<div id="batch-progress" class="notice" role="status" aria-live="polite">Ready — up to 20 product names per run. Keep this tab open.</div>
+<div id="batch-results" class="batch-results" aria-live="polite"></div>
+<div class="batch-worker-tip"><strong>Optional Playwright:</strong> <a target="_blank" rel="noopener noreferrer" href="https://github.com/aiabishekgv-stack/Catalogue-Generator/blob/main/NUNES_CATALOGUE_VSC_VERCEL_READY/windows/INDIAMART_PLAYWRIGHT_BATCH.py">Windows public IndiaMART capture script</a>. Desktop Chrome is not installed in the Vercel server.</div>
+</div>
+</section><section class="card mini-only" id="mini-related"><div class="card-h"><div><h2>Related Product Categories</h2><p>Related product previews · suitable studio backgrounds are removed automatically in the PDF · missing images appear only in the final name list</p></div><span id="mini-total" class="muted small">0 products</span></div><div class="body"><div id="mini-categories" aria-live="polite"><div class="notice">Enter a product name and click Search to see related categories and product counts.</div></div>
+<section id="mini-keyword-panel" class="mini-keyword-panel" aria-labelledby="mini-keyword-title" hidden>
+  <div class="mini-keyword-heading">
+    <div><h3 id="mini-keyword-title">Product Names in Final PDF</h3>
+      <p>Click a product name above to focus it. Names are listed without their model codes.</p></div>
+    <span id="mini-keyword-count" class="mini-keyword-counter">0 terms</span>
+  </div>
+  <p class="mini-keyword-focus">Selected focus: <strong id="mini-keyword-focus-name">None</strong></p>
+  <label for="mini-keywords-preview" class="mini-keyword-label">Automatically selected product names — model codes removed</label>
+  <textarea id="mini-keywords-preview" rows="4" spellcheck="false" readonly aria-readonly="true" placeholder="Select products to list their names without source model codes"></textarea>
+  <p class="mini-keyword-help">The final PDF prints the genuine selected names without extra search phrases or manufacturer model numbers.</p>
+</section></div><div class="mini-tools"><span id="mini-selected">0 selected</span><button id="mini-generate" class="btn" disabled>Generate &amp; Preview Mini PDF</button></div></section><section class="card" id="editor"><div class="card-h"><div><h2 id="editor-title">Full Catalogue Editor</h2><p>Review verified details before generating a PDF</p></div><span class="muted small" id="editbadge">No product selected</span></div><div class="body"><div class="formgrid"><div class="field"><label for="product">Product Name</label><input id="product" placeholder="Choose a product"></div><div class="field"><label for="model">Source Model Number (if known)</label><input id="model" placeholder="Model / series"></div></div><div class="field"><label for="specs">Technical Specifications</label><textarea id="specs" placeholder="Verified technical specifications"></textarea></div><div class="field"><label for="description">Product Description — 150–200 words (Review Before Export)</label><textarea id="description" rows="8" placeholder="Generate a 150–200-word product-relevant description. Model-specific facts need source evidence."></textarea></div><div class="field"><label for="features">Key Features — 8–10 lines, one per line</label><textarea id="features" rows="10" placeholder="8–10 useful key-feature lines. Generic product-family notes are identified as such."></textarea></div>
+<div class="full-only full-copy-writer" id="full-copy-writer">
+<button type="button" class="btn" id="full-write-copy">Generate 150–200 Words + 8–10 Key Features</button>
+<p class="hint">Uses available product details and explicitly qualified product-family context. Missing model specifications, ratings and performance are never invented.</p>
+</div><div class="field"><label for="applications">Applications — one per line (source-backed)</label><textarea id="applications" placeholder="Only applications stated in the matching product source"></textarea></div><div class="field" id="mini-keywords-field"><label for="keywords">Mini Catalogue Keywords (optional)</label><input id="keywords" placeholder="Keyword 1, Keyword 2, ..."></div><div class="field"><label for="image">Verified Product Image URL (HTTPS)</label><input id="image" type="url" placeholder="https://example.com/product.jpg"><div class="hint">Upload a product photo for this PDF, or use a verified HTTPS URL.</div><label for="imagefile">Upload product photo</label><input id="imagefile" type="file" accept="image/jpeg,image/png,image/webp"><img id="imageview" class="imagepreview" alt="Product image preview" hidden><div id="imagemsg" class="hint"></div></div><div class="section-action"><button class="btn" id="generate-ai" type="button">Prepare Product Draft</button></div><div id="aistatus" class="notice" role="status">Checking Local Ollama connection…</div>
+<details id="local-ai-help" class="local-ai-help"><summary>Connect Windows Local AI (Ollama) for descriptions and key features</summary><p>Ollama runs on your office Windows PC, not on the Vercel server. Run <code>windows/CONNECT_RENDER_AI.ps1</code> on the PC, then add <code>NUNES_BRIDGE_URL</code> and <code>NUNES_BRIDGE_TOKEN</code> privately to Vercel Production environment variables. Never share your token or commit it to GitHub.</p><p><a href="https://github.com/aiabishekgv-stack/Catalogue-Generator/blob/main/NUNES_CATALOGUE_VSC_VERCEL_READY/windows/CONNECT_RENDER_AI.ps1" target="_blank" rel="noopener noreferrer">Open setup script</a> · <a href="/api/ai/health" target="_blank" rel="noopener noreferrer">Check AI health</a></p></details><details id="reference-content-review" class="reference-copy">
+<summary>Full Catalogue — Two-Page A4 Content Preview</summary>
+<div class="hint reference-hint">Page 1: NUNES branding, the selected product photograph and up to five supplied technical rows. Page 2: the product description, up to eight genuine features and the NUNES office footer. Product Description: 150–200 words. Key Features: 8–10 product-relevant lines. Technical Notes explain source-supplied specifications without inventing ratings. The PDF remains two A4 pages; Mini Catalogue is unchanged.</div>
+<div id="reference-content-stats" class="reference-content-stats" role="status"></div>
+<div id="reference-content-body" class="reference-copy-body"></div>
+<div class="section-action"><button id="copy-reference-content" class="btn alt" type="button">Copy Formatted Content</button></div>
+</details>
+<details class="full-approval-group" id="full-optional-review">
+<summary>Optional source review — PDF generation does not require a checkbox</summary>
+<p class="hint" style="margin:8px 0 11px;line-height:1.55">Check that the product image, source description and all technical values belong to the same exact model before publishing or sharing externally.</p>
+<label class="full-approval-option" for="full-verification">
+<input id="full-verification" type="checkbox">
+<span>I've compared the selected technical data and product photograph with the matching manufacturer or supplier evidence (optional).</span>
+</label>
+<label class="full-approval-option" for="full-four-spec-approval">
+<input id="full-four-spec-approval" type="checkbox">
+<span>Optional review acknowledgement for catalogues with four supplied technical fields. This checkbox does not control PDF generation and is not necessary.</span>
+</label>
+</details>
+<div id="full-four-spec-message" role="status" class="hint" style="margin:10px 0">The PDF uses up to five supplied technical values; no values will be invented.</div>
+<div class="section-action editor-export-actions">
+<button class="btn" id="full">Generate Full Catalogue PDF</button>
+<button class="btn alt" id="mini">Generate Mini Catalogue</button>
+</div><div class="notice" id="status" role="status">Select a product to begin.</div></div></section></div>
+<section class="card" id="preview-card"><div class="card-h"><div><h2>Catalogue Preview</h2><p>Displays the actual generated PDF</p></div><span id="previewtype" class="small muted">No PDF generated</span></div><div class="body"><div class="mini-only mini-preview-tools">
+  <button id="mini-refresh-preview" class="btn" type="button" disabled>Generate / Refresh PDF Preview</button>
+  <p id="mini-preview-state"><strong>Search</strong> finds available products and photographs. <strong>Preview</strong> builds the actual selected-product PDF; use Download after reviewing every page.</p>
+</div><div class="preview" id="preview"><div class="empty"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M12 4h17l8 9v30H12zM29 4v10h8M18 23h13M18 30h13"/></svg><p><strong>Preview ready when you are</strong></p><p class="muted small">Select a product and generate a Full or Mini Catalogue to view the real PDF here.</p></div></div><div class="section-action"><button id="download" class="btn alt" disabled>Download PDF</button><button id="zoomin" class="btn alt" disabled>Open PDF in new tab</button></div>
+<div class="drive-tools" id="drive-tools" hidden><label for="auto-drive"><input id="auto-drive" type="checkbox"> Automatically save new PDFs to Google Drive</label><div id="drive-code-field" style="display:none;margin-top:4px"><input id="drive-code-input" type="password" placeholder="Company Google Drive save code" style="padding:4px 8px;font-size:12px;border:1px solid #ccc;border-radius:4px;max-width:240px"></div><div id="drive-status" class="notice" role="status" hidden></div><a href="#" id="drive-link" target="_blank" rel="noopener noreferrer" hidden>Open saved PDF in Google Drive</a></div></div></section></div><div class="footer">© NUNES Instrumentation · Catalogue Studio</div></section></main>
+<script>
+'use strict';let imageData=null,sessionRole='admin',chosenProduct=null,matches=[],pdfUrl=null,pdfName='',busy=false;const el=id=>document.getElementById(id);const hdr=()=>({});function setNotice(id,text,kind=''){const a=el(id);a.textContent=text;a.className='notice '+kind;a.hidden=!Boolean(text)}
+let driveSaveAvailable=false,driveSaveCode='',selectedPhotoSourceUrl='';
+fetch('/api/config',{cache:'no-store'}).then(r=>r.json()).then(c=>{
+ driveSaveAvailable=Boolean(c.drive_save_available);
+ el('drive-tools').hidden=!driveSaveAvailable;
+ if(el('auto-drive')){
+   // Drive is pre-enabled for NUNES staff once configured. The owner code
+   // remains mandatory and is never stored in localStorage or the URL.
+   el('auto-drive').checked=driveSaveAvailable;
+   const show=()=>{const f=el('drive-code-field');
+     if(f)f.style.display=el('auto-drive').checked?'block':'none'};
+   el('auto-drive').addEventListener('change',show);show();
+   if(driveSaveAvailable)setNotice('drive-status',
+     'Google Drive folders are connected. Enter the private company save code once to automatically save generated PDFs. This code is not stored in the catalogue PDF.');
+ }
+}).catch(()=>{});
+function collectDriveCode(allowPrompt=false){
+ if(!driveSaveAvailable||!el('auto-drive')?.checked)return '';
+ let code=(el('drive-code-input')?.value.trim()||driveSaveCode);
+ if(!code&&allowPrompt){
+   const answer=window.prompt('Google Drive auto-save is enabled. Enter your private NUNES company save code (optional). Cancel to use server default.');
+   code=String(answer||'').trim();
+ }
+ if(code){
+   driveSaveCode=code;
+   if(el('drive-code-input'))el('drive-code-input').value=code;
+ }
+ return code;
+}
+function addDriveBatchHeaders(headers){
+ if(driveSaveAvailable&&el('auto-drive')?.checked){
+   const code=collectDriveCode(false);
+   headers['X-Nunes-Drive-Save']='1';
+   if(code)headers['X-Nunes-Drive-Token']=code;
+   setNotice('drive-status','Uploading generated PDFs to authorized Google Drive folders…');
+ }
+ return headers;
+}
+function showBatchDriveStatus(response,context='Catalogue batch'){
+ const status=response.headers.get('X-Nunes-Drive-Status')||'';
+ const saved=Number(response.headers.get('X-Nunes-Drive-Saved')||'0');
+ const failed=Number(response.headers.get('X-Nunes-Drive-Failed')||'0');
+ const full=Number(response.headers.get('X-Nunes-Drive-Full-Count')||'0');
+ const mini=Number(response.headers.get('X-Nunes-Drive-Mini-Count')||'0');
+ const link=response.headers.get('X-Nunes-Drive-Link')||'';
+ if(link.startsWith('https://drive.google.com/')&&el('drive-link')){
+   el('drive-link').href=link;el('drive-link').hidden=false;
+ }
+ if(status==='saved')setNotice('drive-status',context+': '+
+     saved+' PDF(s) saved to Google Drive ('+full+' Full, '+mini+' Mini).','success');
+ else if(status==='partial')setNotice('drive-status',context+': '+saved+
+     ' saved; '+failed+' upload(s) failed. Download files are still available.','error');
+ else if(status==='access_code_rejected'){
+   driveSaveCode='';if(el('drive-code-input'))el('drive-code-input').value='';
+   setNotice('drive-status','Drive save code rejected. PDFs were generated, but not saved to Drive. Correct the code and regenerate.','error');
+ }else if(status==='save_failed')setNotice('drive-status',
+   'Drive could not save the batch. Review folder permissions, API and quota; downloads are still available.','error');
+ return {status,saved,failed,full,mini};
+}
+let genuineAiOnline=false, localAiOnline=false, draftProvider='template';
+async function refreshDraftStatus(){
+ try{
+   const response=await fetch('/api/ai/health',{cache:'no-store'});
+   if(!response.ok)throw Error('Provider status temporarily unavailable');
+   const info=await response.json();
+   genuineAiOnline=Boolean(info.ai_available);
+   localAiOnline=Boolean(info.worker_online);
+   draftProvider=info.provider||'template';
+   const label=genuineAiOnline?(info.provider==='gemini'?'Generate with Gemini AI':info.provider==='windows'?'Generate with Local AI':'Generate with AI'):'Prepare Product Draft';
+   el('generate-ai').textContent=label;
+   el('mini-ai').textContent=label;
+   // A missing paid provider must never disable the deterministic draft.
+   el('generate-ai').disabled=Boolean(currentAIJob);
+   el('mini-ai').disabled=Boolean(currentAIJob);
+   let text='',kind='';
+   if(genuineAiOnline){
+     kind='success';
+     text=info.provider==='gemini'?'Google Gemini cloud AI is ready.':
+       info.provider==='cloud'?'Vercel cloud AI is ready.':
+       'Office Ollama AI is connected.';
+   }else if(info.cloud_gateway_issue==='gateway_no_credits'){
+     text='Product Draft is ready. Optional cloud AI needs Gateway credits or a Google Gemini API key.';
+   }else if(info.bridge_configured){
+     text=info.bridge_issue==='ollama_offline'?
+       'Local Ollama worker responds, but the text model is offline. Start Ollama on your Windows PC.':
+       'Local Ollama bridge is not reachable from Vercel ('+(info.bridge_issue||'bridge offline')+'). Check Tailscale Funnel and Windows worker.';
+   }else{
+     text='Gemini AI is not connected. Add GEMINI_API_KEY securely in Vercel to generate Product Description and Key Features. Until then, drafts use a clearly labelled non-AI template.';
+   }
+   setNotice('aistatus',text,kind);
+   setNotice('mini-ai-status',text,kind);
+ }catch(_){
+   genuineAiOnline=false;localAiOnline=false;draftProvider='template';
+   el('generate-ai').textContent='Prepare Product Draft';
+   el('mini-ai').textContent='Prepare Product Draft';
+   setNotice('aistatus','Product Draft is ready; optional AI connection could not be checked.');
+   setNotice('mini-ai-status','Product Draft is ready; optional AI connection could not be checked.');
+ }
+}
+refreshDraftStatus();
+let lastAiStatusCheck=Date.now();
+window.addEventListener('focus',()=>{
+ if(Date.now()-lastAiStatusCheck>60000){
+   lastAiStatusCheck=Date.now();refreshDraftStatus();
+ }
+});
+
+el('imagefile').onchange=async()=>{const f=el('imagefile').files[0];imageData=null;if(!f)return;if(!['image/jpeg','image/png','image/webp'].includes(f.type)||f.size>3000000){setNotice('imagemsg','Choose JPEG, PNG or WebP under 3 MB.','error');return}const reader=new FileReader();reader.onload=()=>{imageData=reader.result.split(',',2)[1];el('imageview').src=reader.result;el('imageview').hidden=false;setNotice('imagemsg','Uploaded image is ready for this catalogue.','success')};reader.readAsDataURL(f)};
+el('search').onclick=async()=>{if(location.pathname==='/mini-catalogue'){await miniSearch();return}const query=el('q').value.trim();if(!query){setNotice('searchmsg','Enter a product name, model, or keyword.');return}const b=el('search');b.disabled=true;el('results').innerHTML='<div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div>';setNotice('searchmsg','Searching product database…');try{const r=await fetch('/api/products?q='+encodeURIComponent(query),{headers:hdr(),cache:'no-store'});const data=await r.json();if(!r.ok)throw Error(data.error||'Search failed');matches=data.products||[];el('results').replaceChildren();setNotice('searchmsg',matches.length?'Found '+matches.length+' matching products. Select a product to continue.':'No matching products. Try another name, model, or keyword.');if(matches.length){const t=document.createElement('table');const h=document.createElement('thead');const hr=document.createElement('tr');['Product Name','Model','Action'].forEach(label=>{const th=document.createElement('th');th.textContent=label;hr.append(th)});h.append(hr);const tbody=document.createElement('tbody');matches.forEach(p=>{const tr=document.createElement('tr');const a=document.createElement('td');a.textContent=p.product||'';const m=document.createElement('td');m.textContent=p.model||'—';const act=document.createElement('td');const select=document.createElement('button');select.className='btn alt';select.textContent='Select';select.onclick=()=>{chosenProduct=p;imageData=null;el('imagefile').value='';el('product').value=p.product||'';el('model').value=p.model||'';el('specs').value=p.specifications||'';['description','features','keywords'].forEach(id=>el(id).value='');el('image').value=p.image_link||'';el('image').dispatchEvent(new Event('change'));el('editbadge').textContent='Product selected';setNotice('status','Product selected. Review details, then generate a catalogue.','success');document.getElementById('editor').scrollIntoView({behavior:'smooth',block:'start'})};act.append(select);tr.append(a,m,act);tbody.append(tr)});t.append(h,tbody);el('results').append(t)}}catch(e){el('results').replaceChildren();el('product').value=query;imageData=searchImageData;setNotice('searchmsg','Product search is unavailable. Your entered name and uploaded image are preserved. Click Prepare Product Draft to try research and AI, or edit the fields manually.','error')}finally{b.disabled=false}};
+let imageTimer;el('image').addEventListener('change',()=>{clearTimeout(imageTimer);const url=el('image').value.trim(),img=el('imageview');img.hidden=true;el('imagemsg').textContent='';if(!url)return;try{const u=new URL(url);if(u.protocol!=='https:')throw Error('Image URL must use HTTPS.')}catch(e){el('imagemsg').textContent='Enter a valid HTTPS image URL.';return}img.onload=()=>{img.hidden=false;el('imagemsg').textContent='Image loaded.'};img.onerror=()=>{img.hidden=true;el('imagemsg').textContent='Image could not be loaded. Verify the link.'};imageTimer=setTimeout(()=>{img.src=url},120)});
+function refreshFourSpecApproval(){
+ const count=el('specs').value.split(/\r?\n/).map(x=>x.trim())
+   .filter(x=>/^[^:]{2,75}:\s*\S/.test(x)).length;
+ const message=el('full-four-spec-message');
+ const four=el('full-four-spec-approval');
+ if(message){
+   message.textContent=count>5
+     ?count+' supplied specification rows. The PDF will automatically choose the 5 most concrete supplied values; all rows remain editable.'
+     :count===5
+       ?'5 specification rows ready for the standard Full Catalogue.'
+       :count>=1
+         ?count+' specification rows available. The PDF will show only those real values; missing facts will not be invented.'
+         :'No technical values supplied yet. Enter at least one genuine product specification to create the PDF.';
+ }
+ if(four)four.checked=false; // Legacy checkbox remains optional, never blocks.
+}
+document.addEventListener('input',event=>{
+ const id=event.target?.id;
+ if(['specs','features','description','product','model','image'].includes(id)){
+   const accepted=el('full-verification');
+   if(accepted)accepted.checked=false;
+ }
+ if(['specs','model','product'].includes(id))refreshFourSpecApproval();
+});
+refreshFourSpecApproval();
+async function enrichFullEditor({silent=false}={}){
+  if(catalogueMode!=='full')return null;
+  const product=el('product').value.trim(),model=el('model').value.trim();
+  const description=el('description').value.trim();
+  const features=el('features').value;
+  if(!product)return null;
+  const initial={description,features,product,model,specifications:el('specs').value};
+  try{
+    const response=await fetch('/api/catalogue/enrich',{
+      method:'POST',cache:'no-store',
+      headers:{'Content-Type':'application/json','X-Nunes-AI-Request':'1'},
+      body:JSON.stringify(initial)
+    });
+    const body=await response.json().catch(()=>({}));
+    if(!response.ok)throw Error(body.error||'Content expansion was unavailable');
+    const result=body.result||{};
+    // Do not overwrite concurrent manual edits or a newly selected product.
+    if(initial.description!==el('description').value.trim()||
+       initial.features!==el('features').value||
+       initial.specifications!==el('specs').value||
+       initial.product!==el('product').value.trim())return null;
+    const revisedDescription=(result.description||'').trim();
+    const revisedFeatures=Array.isArray(result.key_features)?
+      result.key_features.join('\n').trim():'';
+    const changed=[];
+    if(revisedDescription&&revisedDescription!==initial.description){
+      el('description').value=revisedDescription;
+      el('description').dispatchEvent(new Event('input',{bubbles:true}));
+      changed.push('Product Description');
+    }
+    if(revisedFeatures&&revisedFeatures!==initial.features.trim()){
+      el('features').value=revisedFeatures;
+      el('features').dispatchEvent(new Event('input',{bubbles:true}));
+      changed.push('Key Features');
+    }
+    const notes=(result.specification_notes||'').trim();
+    const notesText=document.getElementById('full-technical-notes-text');
+    const notesPanel=document.getElementById('full-technical-notes-panel');
+    if(notesText&&notesPanel){
+      notesText.textContent=notes;
+      notesPanel.hidden=!notes;
+      document.dispatchEvent(new Event('nunes:technical-notes-updated'));
+      if(notes)changed.push('Technical Notes');
+    }
+    if(!silent&&changed.length){
+      const descriptionDelta=result.description_added_words||0;
+      const featureDelta=result.features_added_words||0;
+      const lineCount=result.feature_line_count||0;
+      const targetMet=Number(result.description_after_words)>=150&&
+        Number(result.description_after_words)<=200&&lineCount>=8&&lineCount<=10;
+      setNotice('aistatus','Prepared '+result.description_after_words+
+        ' description words and '+lineCount+' key-feature lines'+
+        (result.specification_notes_words?
+          ', plus '+result.specification_notes_words+' words of Technical Notes.':'.')+
+        (targetMet?' Both content targets met.':' Review the wording and counts before publication.')+
+        ' Technical specifications and source manufacturer/model identities were not changed.',
+        targetMet?'success':'warning');
+    }
+    return result;
+  }catch(error){
+    // The backend independently applies the same safe copy preparation on
+    // PDF export. Do not prevent downloads if preview-only enrichment fails.
+    if(!silent)setNotice('aistatus','Content expansion was unavailable: '+error.message);
+    return null;
+  }
+}
+el('full-write-copy').onclick=async()=>{
+  const button=el('full-write-copy');
+  if(!el('product').value.trim()&&!el('q').value.trim()){
+    setNotice('aistatus','Enter a product name in Product Search or the editor first.','error');
+    return;
+  }
+  if(!el('product').value.trim())el('product').value=el('q').value.trim();
+  button.disabled=true;
+  setNotice('aistatus','Generating a 150–200-word description and 8–10 useful feature lines for the selected product…');
+  try{
+    const result=await enrichFullEditor({silent:false});
+    if(!result)setNotice('aistatus','The product was changed during generation, or enrichment was unavailable. Review the editor.','error');
+  }finally{button.disabled=false}
+};
+async function generate(type){
+ if(busy)return false;
+ const product=el('product').value.trim(),model=el('model').value.trim();
+ if(!product){setNotice('status','Select or enter a product name.','error');return false}
+ busy=true;['full','mini'].forEach(id=>el(id).disabled=true);
+ setNotice('status','Generating '+(type==='full'?'Full':'Mini')+' PDF…');
+ try{
+   if(type==='full'&&(
+       !el('features').value.trim()||
+       el('description').value.trim().split(/\s+/).length<12)){
+     setNotice('status','Completing required catalogue sections from supported product information…');
+     const request={
+       product,model,
+       specifications:el('specs').value,
+       source_specifications:el('specs').value,
+       source_description:el('description').value,
+       source_url:selectedPhotoSourceUrl||el('indiamart-url').value.trim(),
+       key_features:el('features').value,
+       applications:el('applications').value};
+     const r=await fetch('/api/catalogue/prepare',{method:'POST',cache:'no-store',
+       headers:{'Content-Type':'application/json','X-Nunes-AI-Request':'1'},
+       body:JSON.stringify(request)});
+     const prepared=await r.json().catch(()=>({}));
+     if(!r.ok)throw Error(prepared.error||'Unable to prepare catalogue details');
+     const d=prepared.result||{};
+     const sets={
+       specs:(d.technical_specifications||[]).map(x=>x.parameter+': '+x.value).join('\n'),
+       features:(d.key_features||[]).join('\n'),
+       applications:(d.applications||[]).join('\n'),
+       description:d.description||''};
+     for(const [id,value] of Object.entries(sets)){
+       if(!value)continue;
+       if(id==='specs')continue; // Category context is not verified model specs.
+       const current=el(id).value.trim();
+       if(!current||(id==='description'&&(
+           current.split(/\s+/).length<55||
+           /at best price|also get|verified compan(?:y|ies)|find here online/i.test(current)))){
+         el(id).value=value;
+         el(id).dispatchEvent(new Event('input',{bubbles:true}));
+       }
+     }
+   }
+   if(type==='full'){
+     setNotice('status','Preparing a fuller product description and more informative feature wording without changing technical specifications…');
+     await enrichFullEditor({silent:true});
+     const pairs=el('specs').value.split(/\r?\n/).map(x=>x.trim())
+       .filter(x=>/^[^:]{2,75}:\s*\S/.test(x));
+     const feats=el('features').value.split(/\r?\n/).filter(x=>x.trim());
+     const terms=el('description').value.trim().match(/[\p{L}\p{N}]+(?:[-/][\p{L}\p{N}]+)*/gu)||[];
+     if(!pairs.length)throw Error('Add at least one genuine technical specification. Missing values are never invented.');
+     if(!feats.length)throw Error('Add at least one real product-specific Key Feature.');
+     if(terms.length<12)throw Error('Provide a product name and a matching photo. The generator prepares a 150–200-word description automatically if needed.');
+     if(!imageData&&!el('image').value.trim())
+       throw Error('Choose or upload one matching product photograph for the blue frame.');
+     // No approval checkbox is required to create a PDF preview.
+     // The server selects the five most concrete source-supplied rows.
+   }
+   const payload={type,product,model,specifications:el('specs').value,
+     description:el('description').value,features:el('features').value,
+     applications:el('applications').value,keywords:type==='mini'?
+       el('mini-keywords-preview').value:el('keywords').value,
+     image_link:el('image').value,image_data:imageData,
+     verification_acknowledged:type==='full'&&el('full-verification').checked?'true':'false',
+     four_spec_exception_approved:type==='full'&&el('full-four-spec-approval').checked?'true':'false',
+     related:matches.filter(p=>p.product!==product).slice(0,60)};
+   const headers={...hdr(),'Content-Type':'application/json'};
+   let saving=false;
+   if(driveSaveAvailable&&el('auto-drive').checked){
+     const manualCode=(el('drive-code-input')?el('drive-code-input').value.trim():'')||driveSaveCode;
+     if(manualCode)driveSaveCode=manualCode;
+     saving=true;
+     headers['X-Nunes-Drive-Save']='1';
+     if(driveSaveCode){
+       headers['X-Nunes-Drive-Token']=driveSaveCode;
+     }
+     setNotice('drive-status','Generating and saving the PDF to your Google Drive folder…');
+   }
+   el('drive-link').hidden=true;el('drive-link').removeAttribute('href');
+   const r=await fetch('/api/generate',{method:'POST',headers,body:JSON.stringify(payload)});
+   if(!r.ok){
+     const data=await r.json().catch(()=>({}));
+     throw Error(data.error||'PDF generation failed');
+   }
+   const blob=await r.blob();
+   if(blob.type&&!blob.type.includes('pdf'))throw Error('Server returned an unexpected file format');
+   if(pdfUrl)URL.revokeObjectURL(pdfUrl);
+   pdfUrl=URL.createObjectURL(blob);
+   pdfName=(product+' '+model+(type==='mini'?' mini':'')).replace(/[^\w\- ]/g,'').slice(0,95)+'.pdf';
+   el('preview').replaceChildren();
+   const iframe=document.createElement('iframe');
+   iframe.src=pdfUrl+'#toolbar=1&view=FitH';
+   iframe.title='Generated '+type+' catalogue PDF';
+   el('preview').append(iframe);
+   if(window.nunesPdfPreviewUpdated)window.nunesPdfPreviewUpdated(Number(r.headers.get('X-Nunes-Page-Count')||0));
+   el('previewtype').textContent=type==='full'?'Full Catalogue':'Mini Catalogue';
+   el('download').disabled=false;el('zoomin').disabled=false;
+   const result=r.headers.get('X-Nunes-Drive-Status');
+   if(saving){
+     if(result==='saved'){
+       const link=r.headers.get('X-Nunes-Drive-Link')||'';
+       if(link.startsWith('https://drive.google.com/')){
+         el('drive-link').href=link;
+         el('drive-link').hidden=false;
+       }
+       setNotice('drive-status','PDF saved to Google Drive.','success');
+     }else{
+       if(result==='access_code_rejected')driveSaveCode='';
+       setNotice('drive-status',result==='access_code_rejected'?
+         'Drive save code was incorrect. PDF remains available for download.':
+         'PDF generated, but Google Drive save failed. Check Drive folder and permissions.','error');
+     }
+   }
+   const cutout=r.headers.get('X-Nunes-Background-Removed')==='1';
+   let countMessage='';
+   if(type==='mini'){
+     const included=Number(r.headers.get('X-Nunes-Mini-Selected-Count')||0);
+     const withPhotos=Number(r.headers.get('X-Nunes-Mini-Image-Count')||0);
+     const missing=Number(r.headers.get('X-Nunes-Mini-Missing-Count')||0);
+     const removed=Number(r.headers.get('X-Nunes-Mini-Cutout-Count')||0);
+     const originals=Number(r.headers.get('X-Nunes-Mini-Original-Count')||0);
+     countMessage=' '+included+' selected products included: '+withPhotos+
+       ' real photo cards; '+removed+' product backgrounds removed.'+
+       (originals?' '+originals+' complex/source photo'+(originals===1?'':'s')+
+         ' retained to avoid damaging the instrument.':'')+
+       (missing?' '+missing+' names listed without photos on the final page.':'');
+     setNotice('searchmsg',countMessage.trim(),'success');
+   }
+   if(type==='mini'){
+     const state=el('mini-preview-state');
+     if(state)state.textContent='Up-to-date preview ready. Use the page selector to check every PDF sheet, especially the final keyword page.';
+   }
+   setNotice('status','PDF generated successfully.'+countMessage+
+     (cutout?' Uploaded image background removed.':'')+
+     ' Preview and download are available.','success');
+   return true;
+ }catch(e){
+   setNotice('status',e.message,'error');
+   return false;
+ }finally{
+   busy=false;['full','mini'].forEach(id=>el(id).disabled=false);
+ }
+}
+
+let miniProducts=[];
+let miniFocusName='',miniKeywordsTouched=false;
+let searchImageData=null,searchImageMime='image/jpeg';
+el('search-image-file').addEventListener('change',async()=>{
+ const file=el('search-image-file').files[0];searchImageData=null;
+ if(!file)return;
+ try{
+   const prepared=await miniPhotoData(file);
+   searchImageData=prepared.base64;searchImageMime='image/jpeg';
+   setNotice('searchmsg','Product photo ready. Background will be removed when the PDF is generated.','success');
+ }catch(error){setNotice('searchmsg',error.message,'error')}
+});
+
+function miniChosen(){return miniProducts.filter(p=>p.selected)}
+function miniPlainProductName(value,model=''){
+ let name=String(value||'').replace(/\s+/g,' ').trim();
+ if(model){
+   const modelToken=String(model).trim().toLowerCase();
+   name=name.split(/\s+/).filter(part=>
+     part.replace(/^[^a-z0-9]+|[^a-z0-9]+$/gi,'').toLowerCase()!==modelToken).join(' ');
+ }
+ name=name.replace(/\b(?:model(?:\s+no(?:\s+number)?)?|series)\s*[:#=-]?\s*[a-z0-9/+\-.]{2,32}/gi,' ');
+ name=name.replace(/\b(?:(?:[a-z]{1,8}[-/]?\d+[a-z0-9/-]*)|(?:\d+[a-z]{1,8}[a-z0-9/-]*))\b/gi,
+    value=>(value.length<4||/^\d+(?:kg|g|mm|cm|ml|l|rpm|hz|khz|mhz|v|w|kw|kv|ma|mpa|bar)$/i.test(value))?value:' ');
+ name=name.replace(/[\s|,;-]+/g,' ').trim();
+ return name||String(value||'').trim();
+}
+function miniSuggestedKeywords(){
+ const chosen=miniChosen();
+ const names=[...new Set(chosen.map(p=>miniPlainProductName(p.product,p.model||'')).filter(Boolean))];
+ const focusItem=miniFocusName&&chosen.find(p=>p.product===miniFocusName);
+ const focus=focusItem?miniPlainProductName(focusItem.product,focusItem.model||''):
+   (names[0]||miniPlainProductName(el('q').value||''));
+ return {focus,terms:names.slice(0,120)};
+}
+
+function markMiniPreviewStale(){
+ if(!pdfUrl||catalogueMode!=='mini')return;
+ el('previewtype').textContent='Selection changed — refresh PDF';
+ el('download').disabled=true;el('zoomin').disabled=true;
+ const help=el('mini-preview-state');
+ if(help)help.textContent='Selection or keywords changed. Use Generate / Refresh PDF Preview to update the document.';
+}
+function refreshMiniKeywords(force=false){
+ if(catalogueMode!=='mini')return;
+ const box=el('mini-keywords-preview'), panel=el('mini-keyword-panel');
+ if(!box||!panel)return;
+ const {focus,terms}=miniSuggestedKeywords();
+ panel.hidden=!focus;
+ if(!miniKeywordsTouched||force){
+   box.value=terms.join(', ');
+   miniKeywordsTouched=false;
+ }
+ el('mini-keyword-focus-name').textContent=focus||'None';
+ const count=box.value.split(/[,;\n]+/).filter(t=>t.trim()).length;
+ el('mini-keyword-count').textContent=count+' suggested terms';
+ for(const button of el('mini-categories').querySelectorAll('.mini-focus-name')){
+   const focused=button.dataset.productName===focus;
+   button.setAttribute('aria-pressed',String(focused));
+   button.closest('.mini-product')?.classList.toggle('focused',focused);
+ }
+}
+function miniCount(){
+ const n=miniChosen().length;
+ el('mini-selected').textContent=n+' selected';
+ el('mini-generate').disabled=!n;
+ const refresh=el('mini-refresh-preview');if(refresh)refresh.disabled=!n;
+ if(miniFocusName&&!miniChosen().some(p=>p.product===miniFocusName))miniFocusName='';
+ refreshMiniKeywords();
+ markMiniPreviewStale();
+}
+
+el('mini-keywords-preview').addEventListener('input',()=>{
+ miniKeywordsTouched=true;
+ el('mini-keyword-count').textContent=
+   el('mini-keywords-preview').value.split(/[,;\n]+/).filter(x=>x.trim()).length+
+   ' editable terms';
+ markMiniPreviewStale();
+});
+async function miniPhotoData(file){
+ if(!file||!['image/jpeg','image/png','image/webp'].includes(file.type)||file.size>3000000)
+   throw Error('Choose JPEG, PNG or WebP under 3 MB.');
+ if(typeof createImageBitmap!=='function')throw Error('Use a current Chrome, Edge, or Firefox browser to attach a photo.');
+ const bitmap=await createImageBitmap(file);
+ try{
+   if(bitmap.width*bitmap.height>15000000)throw Error('This image is too large.');
+   const scale=Math.min(1,720/Math.max(bitmap.width,bitmap.height));
+   const canvas=document.createElement('canvas');
+   canvas.width=Math.max(1,Math.round(bitmap.width*scale));
+   canvas.height=Math.max(1,Math.round(bitmap.height*scale));
+   const ctx=canvas.getContext('2d');
+   if(!ctx)throw Error('Could not process product photo.');
+   ctx.fillStyle='#ffffff';ctx.fillRect(0,0,canvas.width,canvas.height);
+   ctx.drawImage(bitmap,0,0,canvas.width,canvas.height);
+   const exportJpeg=quality=>new Promise(resolve=>canvas.toBlob(resolve,'image/jpeg',quality));
+   let blob=await exportJpeg(.82);
+   if(blob&&blob.size>450000)blob=await exportJpeg(.60);
+   if(!blob||blob.size>450000)throw Error('Photo is too large after resizing.');
+   const url=await new Promise((resolve,reject)=>{
+     const reader=new FileReader();
+     reader.onload=()=>resolve(String(reader.result||''));
+     reader.onerror=()=>reject(Error('Could not read photo.'));
+     reader.readAsDataURL(blob);
+   });
+   return {base64:url.split(',')[1],preview:url};
+ }finally{bitmap.close()}
+}
+function miniCanonicalTitle(value){
+ return String(value||'').toLowerCase()
+   .replace(/\s+\|\s+(?:indiamart|amazon|best price|ubuy|grainger).*$/i,'')
+   .replace(/^(?:amazon\.com|snapklik\.com)\s*:\s*/i,'')
+   .replace(/[^a-z0-9]+/g,' ').trim();
+}
+function miniCanonicalSourcePage(url){
+ try{
+   const u=new URL(String(url||''));
+   return u.protocol==='https:'?u.hostname.toLowerCase().replace(/^www\./,'')+
+     decodeURIComponent(u.pathname).replace(/\/$/,'').toLowerCase():'';
+ }catch(_){return ''}
+}
+function miniEvidenceMatch(item,candidate){
+ if(!item||!candidate||!candidate.image_link||
+    !String(candidate.image_link).startsWith('https://'))return '';
+ const first=miniCanonicalTitle(item.product);
+ const second=miniCanonicalTitle(candidate.product);
+ if(!first||!second)return '';
+ const words=new Set(first.split(' ').filter(w=>w.length>2));
+ const candidateWords=new Set(second.split(' ').filter(w=>w.length>2));
+ const matching=[...words].filter(w=>candidateWords.has(w)).length;
+ if(matching<Math.min(2,words.size))return '';
+ if(item.model&&
+    !String(candidate.product+' '+(candidate.source_url||'')).toLowerCase()
+       .includes(String(item.model).toLowerCase()))return '';
+ const source=miniCanonicalSourcePage(item.source_url);
+ const evidence=miniCanonicalSourcePage(candidate.source_url);
+ if(source&&source===evidence)return 'matching source page';
+ if(first===second)return 'exact product name';
+ return '';
+}
+function miniRefreshEvidencePhoto(product){
+ if(!product||!product.image_link)return;
+ let card=product._miniPhotoCard||null;
+ const src=String(product.image_link);
+ if(card){
+   const image=card.querySelector('img');
+   if(image)image.src=src;
+   return;
+ }
+ const item=product._miniMissingRow;
+ const line=product._miniSelectionRow;
+ const grid=product._miniProductGrid;
+ const group=product._miniProductGroup;
+ const names=product._miniNoImages;
+ if(!item||!line||!grid||!group)return;
+ card=document.createElement('div');
+ card.className='mini-product';
+ const photo=document.createElement('img');
+ photo.alt=product.product;
+ photo.loading='lazy';
+ photo.src=src;
+ photo.onerror=()=>{
+   card.replaceChildren();
+   card.textContent='Photo could not be loaded — product name retained';
+   card.append(line);
+ };
+ card.append(photo,line);
+ if(!grid.isConnected)group.insertBefore(grid,names.isConnected?names:null);
+ grid.append(card);
+ item.remove();
+ if(names&&names.childElementCount<=1)names.remove();
+ product._miniPhotoCard=card;
+ product._miniMissingRow=null;
+}
+function miniMatchSourceEvidence(categories,candidates){
+ let changed=0;
+ const sources=Array.isArray(candidates)?candidates:[];
+ for(const category of categories){
+   for(const item of category.products||[]){
+     if(!item||item.image_link||item._uploaded||item.image_data)continue;
+     for(const candidate of sources){
+       const proof=miniEvidenceMatch(item,candidate);
+       if(!proof)continue;
+       item.image_link=candidate.image_link;
+       item.image_source_url=candidate.source_url||'';
+       item.image_match='evidence_'+proof.replace(/\s+/g,'_');
+       item._autoEvidence=true;
+       changed++;
+       break;
+     }
+   }
+ }
+ return changed;
+}
+async function miniSearch({autoBuild=false}={}){
+ const query=el('q').value.trim();
+ if(!query){setNotice('searchmsg','Enter a product name first.','error');return}
+ const btn=el('search'),autoButton=el('mini-auto-create');
+ btn.disabled=true;autoButton.disabled=true;
+ setNotice('searchmsg',autoBuild?'Auto-creating catalogue: finding matching product listings and photographs…':'Searching available product sources…');
+ if(autoBuild)setNotice('mini-auto-status','Step 1/3: Finding related products and matching source photographs.');
+ selectedPhotoSourceUrl='';
+ miniProducts=[];miniFocusName='';miniKeywordsTouched=false;
+ el('mini-categories').replaceChildren();el('mini-total').textContent='Searching…';
+ el('mini-keyword-panel').hidden=true;
+ try{
+  const res=await fetch('/api/mini/related?q='+encodeURIComponent(query),{cache:'no-store'});
+  const data=await res.json();
+  if(!res.ok)throw Error(data.error||'Unable to search');
+  const categories=(data.categories||[]).slice();
+  el('mini-categories').dataset.query=query;
+  const uploaded=Boolean(searchImageData);
+  // An uploaded product is a real user-supplied item, not a fabricated search hit.
+  if(uploaded){
+   const exists=categories.some(cat=>(cat.products||[]).some(p=>p.product.toLowerCase()===query.toLowerCase()));
+   if(!exists)categories.unshift({name:'Your uploaded product',count:1,products:[{product:query,model:'',image_link:'',source:'Your upload',_uploaded:true}]});
+   else {const item=categories.flatMap(c=>c.products||[]).find(p=>p.product.toLowerCase()===query.toLowerCase());if(item)item._uploaded=true;}
+  }
+  if(!categories.length)categories.push({name:'Your product',count:1,products:[{product:query,model:'',image_link:'',source:'Your entry',_uploaded:uploaded}]});
+  // One research call supplies the visible Source Evidence gallery AND fills
+  // image-less matching products. Never copy a generic category photo across
+  // products, different model numbers or unrelated manufacturer names.
+  let sourceResult=null;
+  try{sourceResult=await retrieveProductSources(query,'');}
+  catch(_){/* Still generate with exactly sourced listings; missing images become names only. */}
+  const evidenceMatches=miniMatchSourceEvidence(categories,sourceResult?.image_candidates||[]);
+  const root=el('mini-categories');
+  for(const cat of categories){
+   const group=document.createElement('section');group.className='mini-category';
+   const head=document.createElement('h3');head.textContent=cat.name+' · '+cat.count+' product'+(cat.count===1?'':'s');group.append(head);
+   const grid=document.createElement('div');grid.className='mini-items';
+   const names=document.createElement('div');names.className='mini-noimage';
+   const sub=document.createElement('p');sub.textContent='Images unavailable for these exact listings';names.append(sub);
+   for(const result of (cat.products||[])){
+    const p={...result,selected:true};miniProducts.push(p);
+    const line=document.createElement('div');line.className='mini-select-row';
+    const checkLabel=document.createElement('label');checkLabel.className='mini-select-checkbox';
+    const input=document.createElement('input');input.type='checkbox';input.checked=true;
+    input.setAttribute('aria-label','Include '+p.product+' in the Mini PDF');
+    input.onchange=()=>{
+      p.selected=input.checked;
+      if(!p.selected&&miniFocusName===p.product)miniFocusName='';
+      miniKeywordsTouched=false;miniCount()
+    };
+    checkLabel.append(input);
+    const focusButton=document.createElement('button');
+    focusButton.type='button';focusButton.className='mini-focus-name';
+    focusButton.textContent=p.product;focusButton.dataset.productName=p.product;
+    focusButton.setAttribute('aria-label','Focus keyword search on '+p.product);
+    focusButton.setAttribute('aria-pressed','false');
+    focusButton.title='Click to generate buyer search keywords for this product';
+    focusButton.onclick=()=>{
+      p.selected=true;input.checked=true;miniFocusName=p.product;
+      miniKeywordsTouched=false;miniCount();
+      setNotice('searchmsg','Focused on "'+p.product+
+        '". Search keywords are ready below. Review the selected listings, then generate the PDF.','success');
+    };
+    line.append(checkLabel,focusButton);
+    const withImage=Boolean(p.image_link)||Boolean(p._uploaded&&searchImageData);
+    if(withImage){
+     const card=document.createElement('div');card.className='mini-product';
+     const photo=document.createElement('img');photo.loading='lazy';photo.alt=p.product;
+     let proxied=false;
+     if(p._uploaded&&searchImageData){
+       photo.src='data:'+searchImageMime+';base64,'+searchImageData;
+     }else{
+       try{
+         const url=new URL(p.image_link);
+         const allowed=['imimg.com','indiamart.com','googleusercontent.com'];
+         proxied=url.protocol==='https:'&&allowed.some(h=>url.hostname===h||url.hostname.endsWith('.'+h));
+         photo.src=proxied?'/api/product-image?url='+encodeURIComponent(p.image_link):p.image_link;
+       }catch(_){photo.src=p.image_link}
+     }
+     photo.onerror=()=>{
+       if(proxied){proxied=false;photo.src=p.image_link;return}
+       photo.remove();
+       const no=document.createElement('small');no.textContent='Image unavailable — name retained';
+       card.prepend(no);
+     };
+     card.append(photo,line);
+     const catalogueLabel=document.createElement('small');
+     catalogueLabel.className='mini-catalogue-ref';
+     catalogueLabel.textContent='VTech / Model VT · catalogue';
+     card.append(catalogueLabel);
+     p._miniPhotoCard=card;
+     grid.append(card);
+    }else{
+     const item=document.createElement('div');item.append(line);
+     const picker=document.createElement('input');
+     picker.type='file';picker.hidden=true;picker.accept='image/jpeg,image/png,image/webp';
+     picker.setAttribute('aria-label','Upload product photo for '+p.product);
+     const attach=document.createElement('button');attach.type='button';
+     attach.className='mini-add-photo';attach.textContent='Add photo';
+     attach.onclick=()=>picker.click();
+     picker.onchange=async()=>{
+       const file=picker.files&&picker.files[0];if(!file)return;
+       attach.disabled=true;
+       try{
+         const data=await miniPhotoData(file);
+         p.image_data=data.base64;p._customPhoto=true;
+         const card=document.createElement('div');card.className='mini-product';
+         const image=document.createElement('img');image.alt=p.product;
+         image.src=data.preview;card.append(image,line);
+         const remove=document.createElement('button');
+         remove.type='button';remove.className='mini-add-photo';remove.textContent='Remove photo';
+         remove.onclick=()=>{
+           p.image_data='';p._customPhoto=false;picker.value='';
+           item.prepend(line);card.remove();names.append(item);
+           if(!names.isConnected)group.append(names);
+           if(!grid.childElementCount)grid.remove();
+         };
+         card.append(remove);
+         if(!grid.isConnected)group.insertBefore(grid,names.isConnected?names:null);
+         grid.append(card);item.remove();
+         if(names.childElementCount<=1)names.remove();
+         setNotice('searchmsg','Added your approved photo for '+p.product+'.','success');
+       }catch(error){setNotice('searchmsg',error.message,'error')}
+       finally{attach.disabled=false}
+     };
+     const catalogueLabel=document.createElement('small');
+     catalogueLabel.className='mini-catalogue-ref';
+     catalogueLabel.textContent='VTech / VT · catalogue label';
+     item.append(attach,picker,catalogueLabel);names.append(item);
+     p._miniMissingRow=item;
+     p._miniSelectionRow=line;
+     p._miniProductGrid=grid;
+     p._miniProductGroup=group;
+     p._miniNoImages=names;
+    }
+   }
+   if(grid.childElementCount)group.append(grid);
+   if(names.childElementCount>1)group.append(names);
+   root.append(group);
+  }
+  el('mini-total').textContent=miniProducts.length+' available products';
+  miniCount();
+  const msg=data.source==='no_verified_results'?'No external listings found. Your supplied product can still generate a basic Mini Catalogue; no related products were invented.':
+             'Found '+data.total+' listed product'+(data.total===1?'':'s')+' from '+data.source+'. Counts reflect retrieved listings only. Review product images before exporting.';
+  setNotice('searchmsg',msg,'success');
+  const availablePhotos=miniProducts.filter(p=>Boolean(p.image_link||p.image_data||(p._uploaded&&searchImageData))).length;
+  const unavailable=miniProducts.length-availablePhotos;
+  setNotice('searchmsg',
+    'Found '+miniProducts.length+' real listed products. '+availablePhotos+
+    ' have source-linked photographs; '+evidenceMatches+' were matched from Source Evidence.'+
+    (unavailable?' '+unavailable+' unmatched product(s) will appear by name, without a misleading photograph.':'')+
+    ' Catalogue branding: VTech / Model VT; original source names and models are retained.','success');
+  const status=el('mini-ai-status');
+  status.textContent='AI drafting is optional. Mini PDF generation uses selected listing names and exact-matched source photographs.';
+  if(autoBuild){
+    setNotice('mini-auto-status','Step 2/3: Selected '+miniProducts.length+
+      ' products and '+availablePhotos+' source-linked photographs. Building the PDF…','success');
+    const generated=await createMiniPDF();
+    if(generated){
+      setNotice('mini-auto-status','Complete: Mini Catalogue generated and preview ready. '+
+        availablePhotos+' photographed product(s), '+unavailable+
+        ' names-only item(s). Review the pages before downloading.','success');
+      el('preview-card').scrollIntoView({behavior:'smooth',block:'start'});
+    }else{
+      setNotice('mini-auto-status','The products were found, but PDF generation needs attention. Check the PDF status below.','error');
+    }
+  }
+ }catch(e){
+  el('mini-categories').textContent='Product search temporarily unavailable.';
+  el('mini-total').textContent='0 products';
+  setNotice('searchmsg',e.message+'. You can retry later.', 'error');
+  if(autoBuild)setNotice('mini-auto-status','Automatic catalogue creation stopped: '+e.message,'error');
+ }finally{btn.disabled=false;autoButton.disabled=false}
+}
+async function createMiniPDF(){
+ const chosen=miniChosen().slice().sort((a,b)=>{
+   const withPhoto=p=>Boolean((p._uploaded&&searchImageData)||p.image_data||p.image_link);
+   return Number(withPhoto(b))-Number(withPhoto(a));
+ });
+ if(!chosen.length){setNotice('searchmsg','Select at least one product.','error');return false}
+ setNotice('searchmsg','Building the Mini PDF with selected product photographs, true listing names and buyer-search keywords on the closing page.','success');
+ const query=el('q').value.trim().toLowerCase();
+ const featured=chosen.find(p=>p.product===miniFocusName)||
+   chosen.find(p=>p.product.toLowerCase()===query)||
+   chosen.find(p=>p._uploaded)||chosen.find(p=>p._customPhoto)||chosen[0];
+ miniFocusName=featured.product;refreshMiniKeywords();
+ el('product').value=featured.product;
+ el('model').value=featured.model||'';
+ el('image').value=featured.image_link||'';
+ imageData=(featured._uploaded&&searchImageData)?searchImageData:(featured.image_data||null);
+ matches=chosen.filter(p=>p!==featured);
+ // Use the existing Mini template and exact product names, not generated guesses.
+ return await generate('mini');
+}
+el('mini-auto-create').onclick=()=>{
+ try{
+   if(driveSaveAvailable&&el('auto-drive').checked)collectDriveCode(true);
+ }catch(error){
+   setNotice('mini-auto-status',error.message,'error');return;
+ }
+ miniSearch({autoBuild:true});
+};
+el('mini-refresh-preview').onclick=async()=>{
+ if(!miniProducts.length)await miniSearch();
+ if(miniProducts.length){
+   const ok=await createMiniPDF();
+   if(ok)el('preview-card').scrollIntoView({behavior:'smooth',block:'start'});
+ }
+};
+el('mini-generate').onclick=async()=>{
+ if(!miniProducts.length)await miniSearch();
+ if(miniProducts.length)await createMiniPDF();
+};
+
+let currentAIJob=null;
+let fullEvidenceProducts=[];
+let fullBatchInProgress=false;
+async function autoCreateFullBatch(fromSearch=false){
+ if(catalogueMode!=='full'||fullBatchInProgress)return false;
+ const entered=(el('q').value||el('product').value).trim();
+ if(!entered){
+   setNotice('full-batch-status','Enter a product name before running the batch.','error');
+   return false;
+ }
+ fullBatchInProgress=true;
+ const quick=el('full-one-click-batch'),build=el('full-batch-build');
+ quick.disabled=true;build.disabled=true;
+ try{
+   if(fromSearch||!fullEvidenceProducts.length){
+     if(fromSearch)selectedPhotoSourceUrl='';
+     setNotice('full-batch-status','Step 1/2: Finding public product photos with attributed source titles…');
+     await retrieveProductSources(entered,'');
+   }
+   const candidates=fullEvidenceProducts.slice(0,8);
+   if(!candidates.length)throw Error(
+     'No matching source photographs are available. Try a clearer product category or upload genuine photographs.');
+   setNotice('full-batch-status','Step 2/2: Creating '+candidates.length+
+     ' independent two-page Full PDF(s). Missing specifications become clearly labelled review drafts, not invented technical values.');
+   const batchHeaders=addDriveBatchHeaders({
+     'Content-Type':'application/json','X-Nunes-AI-Request':'1'});
+   const result=await fetch('/api/catalogue/full-batch',{
+     method:'POST',cache:'no-store',headers:batchHeaders,
+     body:JSON.stringify({products:candidates})
+   });
+   if(!result.ok){
+     const error=await result.json().catch(()=>({}));
+     throw Error(error.error||'Unable to assemble Full Catalogue ZIP');
+   }
+   const file=await result.blob();
+   if(file.size<1000)throw Error('The Full Catalogue ZIP is unexpectedly empty.');
+   const url=URL.createObjectURL(file);
+   try{
+     const link=document.createElement('a');link.href=url;
+     link.download='NUNES_VTech_VT_Full_Catalogues.zip';
+     document.body.append(link);link.click();link.remove();
+   }finally{setTimeout(()=>URL.revokeObjectURL(url),60000)}
+   const drive=showBatchDriveStatus(result,'Full Catalogue batch');
+   const total=Number(result.headers.get('X-Nunes-Batch-Total')||candidates.length);
+   const drafts=Number(result.headers.get('X-Nunes-Batch-Review-Drafts')||0);
+   const photos=Number(result.headers.get('X-Nunes-Batch-Photos')||0);
+   setNotice('full-batch-status','ZIP prepared: '+total+' Full PDF(s), '+
+      photos+' photographs, '+drafts+' review draft(s). '+
+      'Open BATCH_REPORT.csv to see which product details still need manufacturer verification. '+
+      (drive.status==='saved'?'All '+drive.saved+' PDFs were also saved in the Catalogue Drive folder.':
+       drive.status?'Drive upload status is shown in the preview panel.':
+       'Drive saving was not requested.'),'success');
+   return true;
+ }catch(error){
+   setNotice('full-batch-status','Batch export could not finish: '+error.message,'error');
+   return false;
+ }finally{
+   fullBatchInProgress=false;
+   quick.disabled=false;
+   build.disabled=!fullEvidenceProducts.length;
+ }
+}
+el('full-one-click-batch').onclick=()=>autoCreateFullBatch(true);
+el('full-batch-build').onclick=()=>autoCreateFullBatch(false);
+async function retrieveProductSources(product,model){
+  setNotice('source-research','Checking public IndiaMART listings…');
+  el('source-links').replaceChildren();
+  el('source-links').dataset.query=product.trim();
+  if(catalogueMode==='full'){
+    fullEvidenceProducts=[];
+    el('full-batch-build').disabled=true;
+  }
+  try{
+    const r=await fetch('/api/product/research',{method:'POST',cache:'no-store',
+      headers:{'Content-Type':'application/json','X-Nunes-AI-Request':'1'},
+      body:JSON.stringify({product,model,listing_url:el('indiamart-url').value.trim(),
+       reference_url:selectedPhotoSourceUrl})});
+    const info=await r.json();
+    if(!r.ok)throw Error(info.error||'IndiaMART research unavailable');
+    // Show public web product photos first, with IndiaMART as fallback.
+    // Choosing a photo fills its image field and triggers the existing AI draft workflow.
+    const photos=Array.isArray(info.image_candidates)?info.image_candidates:[];
+    if(catalogueMode==='full'){
+      const seenPhotos=new Set();
+      fullEvidenceProducts=photos.filter(photo=>{
+        if(!photo||!photo.image_link||!photo.product)return false;
+        const key=(photo.product+'|'+photo.image_link).toLowerCase();
+        if(seenPhotos.has(key))return false;
+        seenPhotos.add(key);return true;
+      }).slice(0,8).map(photo=>({
+        product:String(photo.product).slice(0,135),
+        model:'',
+        image_link:String(photo.image_link).slice(0,1500),
+        source_url:String(photo.source_url||'').slice(0,500),
+        source:String(photo.source||'Public web').slice(0,100)
+      }));
+      el('full-batch-build').disabled=!fullEvidenceProducts.length||fullBatchInProgress;
+      el('full-batch-build').textContent=fullEvidenceProducts.length?
+        'Generate All '+fullEvidenceProducts.length+' Source Evidence Full PDFs (ZIP)':
+        'Generate All Source Evidence Full PDFs';
+      if(fullEvidenceProducts.length&&!fullBatchInProgress){
+        setNotice('full-batch-status',fullEvidenceProducts.length+
+          ' attributed source photograph(s) ready for a one-click Full Catalogue ZIP. '+ 
+          'Every image becomes its own two-page PDF; missing technical data is marked as a review draft.');
+      }
+    }
+    const gallery=document.createElement('section');
+    gallery.className='nunes-photo-gallery';
+    const label=document.createElement('div');
+    label.className='nunes-gallery-heading';
+    label.textContent=photos.length
+      ?'Choose the matching product photograph ('+photos.length+' options)'
+      :'No product photographs retrieved; upload the genuine product photo instead.';
+    gallery.append(label);
+    const photoGrid=document.createElement('div');
+    photoGrid.className='nunes-gallery-grid';
+    gallery.append(photoGrid);
+    for(const item of photos){
+      if(!item||!item.image_link)continue;
+      const card=document.createElement('button');
+      card.type='button';card.className='nunes-gallery-card';
+      card.dataset.productName=String(item.product||'');
+      card.dataset.imageLink=String(item.image_link||'');
+      card.dataset.sourceUrl=String(item.source_url||'');
+      card.dataset.photoSource=String(item.source||'Public image');
+      card.title='Use photo: '+(item.product||'product image');
+      const image=document.createElement('img');image.alt=item.product||'Product photo';
+      image.loading='lazy';image.className='nunes-gallery-image';
+      image.src='/api/product-image?url='+encodeURIComponent(item.image_link);
+      image.onerror=()=>{
+        image.onerror=()=>card.remove();
+        image.src=item.image_link;
+      };
+      const name=document.createElement('span');name.className='nunes-gallery-name';
+      name.textContent=(item.product||'Product photograph').slice(0,90);
+      const source=document.createElement('small');source.className='nunes-gallery-source';
+      source.textContent=item.source||'Public web';
+      card.append(image,name,source);
+      card.onclick=()=>{
+        if(catalogueMode==='mini'&&miniProducts.length){
+          const current=miniProducts.find(p=>p.selected&&p.product===miniFocusName)||
+            miniProducts.find(p=>p.selected&&p.product.toLowerCase()===el('q').value.trim().toLowerCase())||
+            miniChosen()[0];
+          if(current){
+            const evidence=miniEvidenceMatch(current,item);
+            if(!evidence){
+              setNotice('source-research',
+                'That photo is not an exact match for the selected listing "'+
+                current.product+'". Choose an image from the matching listing or use its own uploaded product photo.',
+                'error');
+              return;
+            }
+            current.image_link=item.image_link;
+            current.image_source_url=item.source_url||'';
+            current.image_match='manually_selected_'+evidence.replace(/\s+/g,'_');
+            miniRefreshEvidencePhoto(current);
+            miniCount();
+          }
+        }
+        selectedPhotoSourceUrl=item.source_url||'';
+        el('image').value=item.image_link;
+        el('image').dispatchEvent(new Event('change'));
+        photoGrid.querySelectorAll('.nunes-gallery-card').forEach(b=>{
+          b.classList.remove('selected');
+          b.setAttribute('aria-pressed','false');
+        });
+        card.classList.add('selected');
+        card.setAttribute('aria-pressed','true');
+        setNotice('source-research',
+          'Photo selected from '+(item.source||'a public source')+
+          '. Verify that its manufacturer/model matches the description and specifications before publishing.',
+          'success');
+      };
+      card.setAttribute('aria-pressed',String(el('image').value.trim()===item.image_link));
+      if(el('image').value.trim()===item.image_link)card.classList.add('selected');
+      photoGrid.append(card);
+    }
+    el('source-links').append(gallery);
+    if(!info.found){
+      setNotice('source-research',(info.message||'No matching IndiaMART specifications were retrieved.')+
+        ' You may still select an exact-matching photo; numerical claims are not inferred from images.');
+      // Mini still needs the image evidence even if no detailed research
+      // specifications could be downloaded from the source page.
+      return info;
+    }
+    const sources=(info.sources||[]).filter(entry=>entry&&
+      typeof entry.url==='string'&&/^https:\/\//i.test(entry.url));
+    if(sources.length){
+      const references=document.createElement('details');
+      references.className='nunes-research-links';
+      const summary=document.createElement('summary');
+      summary.textContent='Research references ('+sources.length+') — open to verify exact model';
+      const sourceGrid=document.createElement('div');
+      sourceGrid.className='nunes-research-links-grid';
+      for(const entry of sources){
+        const a=document.createElement('a');a.href=entry.url;
+        a.target='_blank';a.rel='noopener noreferrer';
+        a.textContent=entry.title+' ('+(entry.source||'product source')+')';
+        sourceGrid.append(a);
+      }
+      references.append(summary,sourceGrid);
+      el('source-links').append(references);
+    }
+    // Public IndiaMART lookup is performed on the server: no IndiaMART window opens.
+    // Only use a matching listing photo if the operator has not supplied one.
+    if(info.image_link&&!photos.length&&!imageData&&!searchImageData&&!el('image').value.trim()){
+      el('image').value=info.image_link;
+      el('image').dispatchEvent(new Event('change'));
+    }
+    // Automatically copy public research into the visible Paste Product Details
+    // textarea and use its existing field parser. No manual paste/click required.
+    if(catalogueMode==='full'){
+      document.dispatchEvent(new CustomEvent('nunes:research-autofill',{detail:{
+        product,model,description:info.description||'',
+        specifications:info.specifications||''
+      }}));
+    }
+    const method=info.retrieval_method==='public_web_indexed_excerpts'?'public web search excerpts':info.retrieval_method==='direct_listing'?'direct listing':
+      info.retrieval_method==='direct_listing_and_indexed_search'?'indexed listings and a readable product page':'public indexed listings';
+    setNotice('source-research',(info.sources||[]).length+' public product sources found using '+method+
+      '. Product photos and supplier specifications are unverified until reviewed.','success');
+    return info;
+  }catch(e){setNotice('source-research','IndiaMART research unavailable: '+e.message);return null}
+}
+async function aiRequest(url,options={}){
+  const response=await fetch(url,{...options,headers:{...hdr(),...(options.headers||{})},cache:'no-store'});
+  const data=await response.json().catch(()=>({}));
+  if(!response.ok)throw Error(data.error||'Local AI request failed');
+  return data;
+}
+async function runLocalAI(){
+  const product=(el('q').value||el('product').value).trim();
+  const noticeId=catalogueMode==='mini'?'mini-ai-status':'aistatus';
+  if(catalogueMode==='mini'){el('product').value=product;imageData=searchImageData;}
+  else {if(el('q').value.trim())el('product').value=el('q').value.trim();else if(!el('product').value.trim()&&product)el('product').value=product;if(!imageData&&searchImageData)imageData=searchImageData;}
+  if(!product){setNotice(noticeId,'Enter or select a product name first.','error');return}
+  if(currentAIJob)return;
+  const button=el(catalogueMode==='mini'?'mini-ai':'generate-ai');button.disabled=true;
+  setNotice(noticeId,genuineAiOnline?'Searching public IndiaMART product listings, then generating description and key features with Gemini AI…':
+    'Preparing a clearly labelled non-AI draft…');
+  try{
+    const research=await retrieveProductSources(product,el('model').value);
+    if(research&&research.found){
+      // Search-engine excerpts are evidence, not ready-to-publish descriptions.
+      // Never inject scraped navigation, directories, or supplier ads into the editor.
+      if(research.specifications){
+        const raw=research.specifications;
+        const sourcedSpecs=typeof raw==='string'?raw:
+          Array.isArray(raw)?raw.map(x=>typeof x==='string'?x:JSON.stringify(x)).join('\n'):
+          Object.entries(raw).map(([key,value])=>key+': '+(typeof value==='string'?value:JSON.stringify(value))).join('\n');
+        if(sourcedSpecs.trim()&&!el('specs').value.trim()){el('specs').value=sourcedSpecs.slice(0,12000);el('specs').dispatchEvent(new Event('input',{bubbles:true}));}
+        setNotice(noticeId,'IndiaMART specifications fetched into the catalogue. Review against the source before publishing.','success');
+      }
+    }
+    // Feed retrieved public text into the existing paste-and-autofill workflow.
+    // Preserve user-entered text and mark external excerpts as unverified.
+    if(catalogueMode==='full'&&research?.found){
+      const paste=document.getElementById('pasted-details');
+      if(paste&&!paste.value.trim()){
+        const excerpts=(research.sources||[]).map(s=>s.excerpt||'').filter(Boolean).slice(0,4);
+        const lines=[product,el('model').value?'Model: '+el('model').value:'',
+          research.specifications?'Technical Specifications\n'+research.specifications:'',
+          research.description?'Product Description\n'+research.description:'',
+          excerpts.length?'Source Excerpts (unverified)\n'+excerpts.join('\n'):''].filter(Boolean);
+        paste.value=lines.join('\n\n');
+        paste.dispatchEvent(new Event('input',{bubbles:true}));
+      }
+    }
+    const beforeAiFields={
+      description:el('description').value.trim(),
+      features:el('features').value.trim(),
+      applications:el('applications').value.trim(),
+      keywords:el('keywords').value.trim()
+    };
+    const importedDescription=el('description').value.startsWith('Public IndiaMART listing description (unverified; review before publishing): ');
+    // The public-research autofill provides an unpolished source excerpt.
+    // It is safe to replace that exact auto-imported text with the polished
+    // source-based/AI draft, but never overwrite a manually modified field.
+    const sourceDescriptionImported=Boolean(research?.description?.trim())&&
+      beforeAiFields.description===research.description.trim();
+    const marketplaceText=/at best price|also get|verified compan(?:y|ies)|latest price|from verified|corporation at best|find here online|price list|contact supplier|id:\s*\d{7,}|trader\s*[-–]\s*wholesaler|wholesaler\s*\/\s*distributor/i
+      .test(beforeAiFields.description);
+    const job=await aiRequest('/api/ai/start',{method:'POST',
+      headers:{'Content-Type':'application/json','X-Nunes-AI-Request':'1'},
+      body:JSON.stringify({product,model:el('model').value,
+        specifications:el('specs').value,source_description:research?.description||'',
+        source_specifications:research?.specifications||'',
+        source_url:selectedPhotoSourceUrl||research?.sources?.[0]?.url||el('indiamart-url').value.trim(),
+        image_mime:(imageData&&el('imagefile').files[0]?.type)||
+          (searchImageData?'image/jpeg':'image/jpeg'),
+        image_data:(imageData||searchImageData||''),
+        // A selected public product photograph supplies appearance only;
+        // technical values still require text evidence for the exact model.
+        source_image_url:el('image').value.trim(),
+        key_features:el('features').value,
+        applications:el('applications').value})});
+    currentAIJob=job.id||'cloud';
+    let status=job.status==='completed'?job:null;
+    if(!status){
+      for(let attempt=0;attempt<120;attempt++){
+        await new Promise(resolve=>setTimeout(resolve,2500));
+        status=await aiRequest('/api/ai/job/'+encodeURIComponent(job.id));
+        if(status.status==='completed'||status.status==='failed')break;
+        setNotice(noticeId,'AI is '+status.status+'… Keep this page open.');
+      }
+    }
+    if(!status||status.status==='failed')throw Error(status?.error||'AI generation failed');
+    if(status.status!=='completed')throw Error('AI task is not finished yet. Try again later.');
+    if((catalogueMode==='mini'?el('q').value:(el('product').value||el('q').value)).trim()!==product)
+      throw Error('Product changed during generation. Reopen the original product before applying the draft.');
+    const answer=status.result||{};
+    const templateUsed=status.provider==='template'||answer.provider==='template';
+    // Do not disguise failed cloud inference as success.
+    // Reuse supported specifications as clear, editable key features if no AI features exist.
+    if(templateUsed&&!Array.isArray(answer.key_features))answer.key_features=[];
+    if(templateUsed&&!(answer.key_features||[]).length&&el('specs').value.trim()){
+      answer.key_features=el('specs').value.split(/\r?\n/).filter(s=>/^[^:]{2,65}:\s*\S/.test(s)).slice(0,10);
+    }
+    // Prefer actual source excerpts over a template's 'no specs' disclaimer.
+    // Genuine AI is optional, and never overwrites sourced text silently.
+    const fields={description:answer.description||'',features:(answer.key_features||[]).join('\n'),
+       applications:(answer.applications||[]).join('\n'),keywords:(answer.keywords||[]).join(', ')};
+    if(templateUsed){
+      // Do not replace useful operator edits with a generic AI fallback.
+      if(beforeAiFields.description&&!importedDescription&&!sourceDescriptionImported&&!marketplaceText)
+        delete fields.description;
+    }
+    const edited=Object.keys(fields).filter(id=>fields[id]&&beforeAiFields[id]&&
+       !(id==='description'&&(importedDescription||sourceDescriptionImported||marketplaceText))&&
+       beforeAiFields[id]!==fields[id]);
+    if(edited.length&&!confirm('Draft will replace existing '+edited.join(', ')+' fields. Continue?')){
+      setNotice(noticeId,'Existing edits were preserved.','error');return;
+    }
+    Object.entries(fields).forEach(([id,value])=>{if(value){el(id).value=value;el(id).dispatchEvent(new Event('input',{bubbles:true}));}});
+    if(catalogueMode==='full'){
+      const pasted=el('pasted-details');
+      if(pasted && (answer.description||answer.key_features?.length)){
+        // Keep the source text accessible without changing reviewed editor values.
+        const segments=[pasted.value.trim()];
+        if(answer.description)segments.push('AI Draft Description',answer.description);
+        if(answer.key_features?.length)segments.push('AI Draft Key Features',...answer.key_features.map(x=>'- '+x));
+        pasted.value=segments.filter(Boolean).join('\n\n').slice(0,15000);
+      }
+    }
+
+    // Deterministic, non-generative extraction: a returned draft may omit
+    // technical_specifications even when source/pasted data contains key:value rows.
+    // Never infer numbers from product titles, category pages, or photos.
+    const rowSources=[research?.specifications||'',answer.specifications||'',
+      answer.verified_specifications||'',(document.getElementById('pasted-details')?.value||'')];
+    const allowedFields=/^(?:brand|model(?: number)?|type|product type|stirrer type|stirring positions|number of positions|maximum stirring volume|speed range|speed control|top plate(?: material)?|body(?: material)?|heating(?: plate)?|power supply|voltage|operating voltage|capacity|measurement range|measuring range|accuracy|resolution|range|display(?: type)?|sensor(?: type)?|working temperature|operating temperature|dimensions|weight|frequency|power|material|country of origin|throughput|sample volume|technology|interface|automation|warranty|size|volume|model no\.?)$/i;
+    const extraPairs=[];
+    const seenPairs=new Set();
+    for(const rawText of rowSources){
+      if(typeof rawText!=='string')continue;
+      // Only explicit, individually labelled fields are trusted for extraction.
+      for(const line of rawText.split(/\r?\n/)){
+        const m=line.trim().replace(/^[-*•]\s*/,'').match(/^([A-Za-z][A-Za-z0-9 /().-]{1,65})\s*:\s*(.{1,180})$/);
+        if(!m||!allowedFields.test(m[1].trim()))continue;
+        const parameter=m[1].trim(),value=m[2].trim();
+        if(!value||/^(?:n\/a|unknown|not available)$/i.test(value))continue;
+        const k=parameter.toLowerCase();
+        if(!seenPairs.has(k)){seenPairs.add(k);extraPairs.push({parameter,value});}
+      }
+    }
+    answer.technical_specifications=[...(Array.isArray(answer.technical_specifications)?answer.technical_specifications:[]),...extraPairs];
+    // Give the editor a meaningful reference-style feature list when the AI
+    // provider returned none but labelled specifications actually exist.
+    if(!(answer.key_features||[]).length&&extraPairs.length){
+      answer.key_features=extraPairs.filter(p=>!/^(brand|model(?: number)?)$/i.test(p.parameter))
+        .slice(0,10).map(p=>p.parameter+': '+p.value);
+      if(answer.key_features.length&&!el('features').value.trim()){
+        el('features').value=answer.key_features.join('\n');
+        el('features').dispatchEvent(new Event('input',{bubbles:true}));
+      }
+    }
+    // One transaction synchronizes source-backed pairs with the existing PDF editor.
+    const existingSpecs=el('specs').value.trim();
+    const received=Array.isArray(answer.technical_specifications)?answer.technical_specifications:[];
+    const valid=received.filter(p=>p&&typeof p.parameter==='string'&&typeof p.value==='string'&&p.parameter.trim()&&p.value.trim());
+    const merged=new Map();
+    for(const line of existingSpecs.split(/\r?\n/)){
+      const k=line.indexOf(':');
+      if(k>0)merged.set(line.slice(0,k).trim().toLowerCase(),line.trim());
+    }
+    for(const p of valid){
+      const key=p.parameter.trim().toLowerCase();
+      if(!merged.has(key))merged.set(key,p.parameter.trim()+': '+p.value.trim());
+    }
+    if(merged.size){
+      el('specs').value=[...merged.values()].join('\n');
+      el('specs').dispatchEvent(new Event('input',{bubbles:true}));
+    }
+    if(answer.model&&!el('model').value.trim())el('model').value=answer.model;
+    if(el('editbadge'))el('editbadge').textContent=(valid.length||merged.size)?
+       merged.size+' specification pairs · review required':
+       'Draft ready · specifications require confirmation';
+    if(catalogueMode==='full'&&!valid.length&&!existingSpecs)
+      setNotice('source-research','Technical specifications require manufacturer confirmation. The description and features remain drafts for review.');
+
+    setNotice(noticeId,templateUsed?
+      'Gemini generation did not complete ('+(job.fallback_reason||'provider unavailable')+'). This is a limited template draft. Source-confirmed specs have been preserved; recheck AI usage/quota and source data.':
+      'Product Description and Key Features prepared by '+(status.provider==='windows'?'Windows Ollama':'the connected AI provider')+
+        ' ('+(answer.model_used||'model')+'). Review all claims before exporting PDF.','success');
+    if(catalogueMode==='mini'){
+      // Populate related IndiaMART search cards automatically on Draft, instead
+      // of requiring the operator to press Search a second time.
+      if(!miniProducts.length)await miniSearch();
+      // Preserve the uploaded main product as the first selected product.
+      const target=miniProducts.find(p=>p.product.toLowerCase()===product.toLowerCase());
+      if(target){target.selected=true;if(searchImageData)target._uploaded=true;}
+      else miniProducts.unshift({product,model:el('model').value||'',
+           image_link:el('image').value||'',_uploaded:Boolean(searchImageData),selected:true});
+      miniCount();
+    }
+    if(catalogueMode==='full'){
+      // Replace the raw marketplace excerpt (if any) with polished, supported
+      // category context before the user sees or exports the Full PDF.
+      const enrichment=await enrichFullEditor({silent:true});
+      refreshFourSpecApproval();
+      const count=el('specs').value.split(/\r?\n/).filter(x=>/^[^:]{2,75}:\s*\S/.test(x.trim())).length;
+      const descWordCount=el('description').value.trim().split(/\s+/).filter(Boolean).length;
+      setNotice(noticeId,
+        'Full Catalogue draft ready: '+descWordCount+' description words, '+
+        el('features').value.split(/\r?\n/).filter(x=>x.trim()).length+
+        ' key-feature lines, and '+count+' source-supplied specification row(s). '+
+        'Click Generate Full Catalogue PDF; no checkbox is required. '+
+        'Review the exact product photograph and technical values.'+
+        (enrichment?.source_rewritten?' Supplier-directory copy was replaced with product-type guidance.':'')+
+        (templateUsed?' The AI provider was unavailable, so a source-based draft was used.':''),'success');
+      return;
+    }
+    // AI drafting and PDF rendering are separate deliberate actions.
+    // A search or draft never silently exports a new PDF.
+    setNotice(noticeId,templateUsed?
+      'Draft saved from a clearly labeled source-based fallback; Gemini did not complete this request ('+
+        (job.fallback_reason||'provider unavailable')+'). Review the selected product name and source photograph. Then click Generate & Preview Mini PDF.':
+      'Optional AI draft prepared. Review the related products and buyer-search terms; then click Generate & Preview Mini PDF.','success');
+  }catch(e){setNotice(noticeId,e.message,'error')}
+  finally{currentAIJob=null;button.disabled=false;}
+}
+el('generate-ai').onclick=runLocalAI;el('mini-ai').onclick=runLocalAI;
+['product','model','specs','description','features','applications','keywords','image'].forEach(id=>el(id).addEventListener('input',()=>{
+ if(pdfUrl){el('previewtype').textContent='Preview out of date — regenerate';el('download').disabled=true;el('zoomin').disabled=true;}
+}));
+const catalogueMode=location.pathname==='/mini-catalogue'?'mini':'full';if(catalogueMode==='mini')document.body.classList.add('mini-mode');else document.body.classList.add('full-mode');
+function configureCataloguePage(){const mini=catalogueMode==='mini';document.title=(mini?'Mini Catalogue Generator':'Full Catalogue Generator')+' | NUNES Catalogue Studio';el('page-title').textContent=mini?'Mini Catalogue Generator':'Full Catalogue Generator';el('page-mode').textContent=mini?'Mini Catalogue':'Full Catalogue';el('editor-title').textContent=mini?'Mini Catalogue Editor':'Full Catalogue Editor';el('full').hidden=mini;el('mini').hidden=!mini;el('mini-keywords-field').hidden=!mini;el('tab-full').setAttribute('aria-current',mini?'false':'page');el('tab-mini').setAttribute('aria-current',mini?'page':'false');el('previewtype').textContent=mini?'Mini Catalogue · No PDF generated':'Full Catalogue · No PDF generated';if(mini){
+ document.querySelector('.pagehead p').textContent='Find real product listings, click a name to create relevant search keywords, then generate and review the Mini PDF.';
+ el('q').placeholder='Enter product/category, e.g. Leak Detector Kit';
+ el('search').textContent='Find Products & Photos';
+ el('products').querySelector('.card-h h2').textContent='Product Search & Photo Evidence';
+ el('preview-card').querySelector('.card-h h2').textContent='PDF Preview & Quality Check';
+ el('preview-card').querySelector('.card-h p').textContent='Review every page before downloading the real PDF.';
+ el('mini-ai').textContent='Prepare AI Product Draft (optional)';
+}}
+configureCataloguePage();
+let cloudBuildRunning=false;
+let cloudDownloadUrl=null;
+function cloudStatus(message,error=false){
+  const target=el('instant-cloud-status');
+  target.textContent=message;
+  target.dataset.state=error?'warning':cloudBuildRunning?'busy':'success';
+}
+function cloudSelectedProducts(query){
+  const comparison=String(query||'').trim().toLowerCase();
+  if(catalogueMode==='mini'){
+    const sourceQuery=(el('mini-categories').dataset.query||'').toLowerCase();
+    if(sourceQuery!==comparison)return null; // Never reuse stale search.
+    const chosen=miniChosen().slice(0,8);
+    return chosen.length?chosen.map(p=>({
+      product:p.product,model:p.model||'',source:p.source||'',
+      source_url:p.source_url||'',image_link:p.image_link||'',
+      image_data:p.image_data||
+        (p._uploaded&&searchImageData?searchImageData:'')
+    })):null;
+  }
+  const sourceQuery=(el('source-links').dataset.query||'').toLowerCase();
+  if(sourceQuery!==comparison)return null;
+  const photos=fullEvidenceProducts.slice(0,8).filter(x=>
+    x&&x.product&&x.image_link);
+  return photos.length?photos.map(p=>({
+    product:p.product,model:p.model||'',source:p.source||'',
+    source_url:p.source_url||'',image_link:p.image_link
+  })):null;
+}
+async function buildInstantCloudCatalogues(){
+  if(cloudBuildRunning)return;
+  const query=(el('q').value||el('product').value||'').trim();
+  if(query.length<4){
+    cloudStatus('Enter a product or model first (at least four characters).',true);
+    el('q').focus();return;
+  }
+  const selected=cloudSelectedProducts(query);
+  const btn=el('instant-cloud-build');
+  const area=el('instant-cloud-results');
+  cloudBuildRunning=true;
+  btn.disabled=true;area.replaceChildren();
+  cloudStatus('Working automatically in the cloud: finding exact-source products, checking matching photographs, building Full and Mini PDFs, and preparing the source report. This may take a little while.');
+  try{
+    const req={query};
+    if(selected&&selected.length)req.products=selected;
+    const response=await fetch('/api/catalogue/instant-cloud',{
+      method:'POST',cache:'no-store',
+      headers:{'Content-Type':'application/json','X-Nunes-AI-Request':'1'},
+      body:JSON.stringify(req)
+    });
+    if(!response.ok){
+      const body=await response.json().catch(()=>({}));
+      throw Error(body.error||'Could not generate the combined PDF bundle.');
+    }
+    const blob=await response.blob();
+    if(blob.size<2000)throw Error('Downloaded ZIP was unexpectedly small.');
+    if(cloudDownloadUrl)URL.revokeObjectURL(cloudDownloadUrl);
+    cloudDownloadUrl=URL.createObjectURL(blob);
+    const number=key=>Number(response.headers.get(key)||0);
+    const total=number('X-Nunes-Cloud-Products');
+    const full=number('X-Nunes-Cloud-Full-Pdfs');
+    const mini=number('X-Nunes-Cloud-Mini-Pdfs');
+    const photographs=number('X-Nunes-Cloud-Photos');
+    const reviews=number('X-Nunes-Cloud-Review-Drafts');
+    const sourceDrafts=number('X-Nunes-Cloud-Source-Drafts');
+    const headline=document.createElement('strong');
+    headline.className='instant-cloud-result-title';
+    headline.textContent=full+' Full PDFs + '+mini+' Mini PDF ready';
+    const details=document.createElement('p');
+    details.className='instant-cloud-metrics';
+    details.textContent=total+' selected source products · '+photographs+
+      ' Mini photographs · '+reviews+' source-incomplete review drafts · '+
+      sourceDrafts+' supplier-reported drafts. Every item is documented in BATCH_REPORT.csv.';
+    const link=document.createElement('a');
+    link.href=cloudDownloadUrl;
+    link.className='instant-cloud-file';
+    link.download='NUNES_VTech_VT_Full_and_Mini_Catalogues.zip';
+    link.textContent='Download Complete ZIP (PDFs + Source Report)';
+    area.append(headline,details,link);
+    cloudStatus('Complete. All PDFs and the source-status report are in one ZIP. VTech / VT are catalogue labels; original manufacturers and models remain identified. Review unverified supplier facts before sharing.');
+    // A direct, user-initiated button click authorizes the finished ZIP
+    // download. Keep the manual link visible if browser blocks auto-download.
+    link.click();
+  }catch(error){
+    cloudStatus('Automatic catalogue build stopped: '+error.message+
+      ' You can retry, or generate the Full/Mini PDFs separately.',true);
+  }finally{
+    cloudBuildRunning=false;
+    btn.disabled=false;
+  }
+}
+el('instant-cloud-build').onclick=buildInstantCloudCatalogues;
+
+// Full catalogue one-click flow: source research, AI fields, verified specs and PDF.
+// Keep the editor available for review and corrections after the automatic draft.
+if(catalogueMode==='full')el('search').onclick=runLocalAI;
+el('full').onclick=()=>generate('full');el('mini').onclick=()=>generate('mini');el('download').onclick=()=>{if(!pdfUrl)return;const a=document.createElement('a');a.href=pdfUrl;a.download=pdfName;a.click()};el('zoomin').onclick=()=>{if(pdfUrl)window.open(pdfUrl,'_blank','noopener,noreferrer')};el('q').addEventListener('keydown',e=>{if(e.key==='Enter')el('search').click()});
+</script><script defer src="/static/spec-paste.js?v=20261015-table10"></script><script defer src="/static/studio-ux.js?v=20261016-fullbatch-names"></script><script defer src="/static/reference-copy.js?v=20261016-copy150"></script><script defer src="/static/batch-catalogue.js?v=20261016-seller-account-import"></script><script defer src="/static/auto-file-upload.js?v=20261017-v1"></script><script defer src="/static/instant-catalogue.js?v=20261016-cloud-v1"></script></body></html>
